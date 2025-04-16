@@ -754,7 +754,7 @@ footer{
     padding-left: 22%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 75px;
     letter-spacing: 0px;
   
@@ -1073,7 +1073,7 @@ footer{
   .content{
     background-color: gainsboro;
     width: 100%;
-    height: 1800px;
+    height: 1700px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -2037,7 +2037,7 @@ footer{
     padding-left: 22%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 40px;
     letter-spacing: 0px;
   
@@ -2399,7 +2399,7 @@ footer{
     padding-left: 22%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 40px;
     letter-spacing: 0px;
   
@@ -2771,7 +2771,7 @@ footer{
     padding-left: 18%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 40px;
     letter-spacing: 0px;
   
@@ -2914,7 +2914,7 @@ footer{
     padding-left: 17%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 40px;
     letter-spacing: 0px;
   
@@ -2966,7 +2966,7 @@ footer{
     padding-left: 13%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 35px;
     letter-spacing: 0px;
   
@@ -2975,6 +2975,96 @@ footer{
 
 
 @media (max-width:450px){
+
+  .menuItem1{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem2{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem3{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem4{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem5{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
 
   .content{
     background-color: gainsboro;
@@ -3000,13 +3090,13 @@ footer{
   .burger1 {
     position: absolute;
     margin-top: -60px;
-    margin-left: 84%;
+    margin-left: 82%;
   }
 
   #ru_eng{
     display: block;
     height: 68px;
-    margin-left: 66%;
+    margin-left: 62%;
     margin-top: -70px;
     background-color: bisque;
     position: absolute;
@@ -3029,7 +3119,7 @@ footer{
     padding-left: 13%;
     text-shadow: 3px 3px 10px rgb(0, 0, 0);
     font: Inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 30px;
     letter-spacing: 0px;
   

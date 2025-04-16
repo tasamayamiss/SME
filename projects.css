@@ -2879,7 +2879,22 @@ footer{
 }
 
 
-@media (max-width:500px){
+@media (max-width:550px){
+
+  #ru_eng{
+    display: block;
+    height: 68px;
+    margin-left: 68%;
+    margin-top: -70px;
+    background-color: bisque;
+    position: absolute;
+  }
+
+  .burger1 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 85%;
+  }
   .card1 {
     width: 90%;
     height: 530px;
@@ -2903,6 +2918,21 @@ footer{
 
 
 @media (max-width:450px){
+
+  #ru_eng{
+    display: block;
+    height: 68px;
+    margin-left: 62%;
+    margin-top: -70px;
+    background-color: bisque;
+    position: absolute;
+  }
+
+  .burger1 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 82%;
+  }
   .card1 {
     width: 96%;
     height: 530px;

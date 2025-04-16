@@ -1,10 +1,11 @@
 
 
 #preloader {
-    width: 90%;
+    width: 100%;
+    height: 1000px;
     position: fixed;
     top: 0;
-    left: 5%;
+    left: 0;
     right: 0;
     bottom: 0;
     background-color: #ffffff;
@@ -12,421 +13,421 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
-  }
+}
 
-  .preloader_img{
-    width: 80%;
-    animation: small-big-small 2s ease-in-out;
-  }
+.preloader_img{
+  width: 80%;
+  animation: small-big-small 2s ease-in-out;
+}
 
-  @keyframes small-big-small {
-    0% {
-      transform: scale(0.7, 0.7);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+@keyframes small-big-small {
+  0% {
+    transform: scale(0.7, 0.7);
   }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
-  html {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
+html {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: chartreuse;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 16px; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* 1240-1600 */
+
+.content{
+  background-color: gainsboro;
+  width: 100%;
+  height: 2600px;
+  margin: 0;
+  padding-top: 0px;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+
+#nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 55;
+  width: 100%;
+  height: 75px;
+  background-color: aqua;
+  margin-top: 0;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wrap{
+  width: 66%;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  margin-left: 17%;
+  background-color: blueviolet;
+}
+
+.logo_img{
+  margin-top: 5px;
+  left: 0;
+  width: 130px;
+  height: 65px;
+}
+
+/* .hamburger {
   
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
+  width: 80px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 1190px;
+  z-index: 100;
+  padding: 0px;
+  cursor: pointer;
+} */
+
+.closeIcon {
+  display: none;
+}
+
+.burger1 {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 92%;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  z-index: 100;
+  background: transparent;
+  width: 60px;
+  height: 45px;
   
-  body {
-    background-color: chartreuse;
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    /* font-size: 16px; */
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #000;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 20px 0 #000;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+.burger.active::before {
+  top: 20px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+.burger.active::after {
+  bottom: 20px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
 
-  /* 1240-1600 */
+.menu {
+  width: 100%;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: -25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style: none;
+  padding-top: 0;
+  color: black;
+  padding-top: 25px;
+  background-color: #ffffff;
+  height: 180px;
+}
 
-  .content{
-    background-color: gainsboro;
-    width: 100%;
-    height: 2600px;
-    margin: 0;
-    padding-top: 0px;
-    box-sizing: border-box;
-    display: block;
-  }
-  
-  
+.menuItem1{
+  background-color: blueviolet;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
+}
 
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+.menuItem2{
+  background-color: blueviolet;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
+}
 
-  .wrap{
-    width: 66%;
-    height: 75px;
-    position: absolute;
-    top: 0;
-    margin-left: 17%;
-    background-color: blueviolet;
-  }
+.menuItem3{
+  background-color: blueviolet;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
+}
 
-  .logo_img{
-    margin-top: 5px;
-    left: 0;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
+.menuItem4{
+  background-color: blueviolet;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
+}
 
-  .burger1 {
-    position: absolute;
-    margin-top: -60px;
-    margin-left: 92%;
-  }
-
-  .burger {
-    position: absolute;
-    cursor: pointer;
-    display: block;
-    position: relative;
-    border: none;
-    z-index: 100;
-    background: transparent;
-    width: 60px;
-    height: 45px;
-    
-  }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
-  
-  .menu {
-    width: 100%;
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: -25px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    list-style: none;
-    padding-top: 0;
-    color: black;
-    padding-top: 25px;
-    background-color: #ffffff;
-    height: 180px;
-  }
-
-  .menuItem1{
-    background-color: blueviolet;
-    margin-left: 4%;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    color: black;
-    word-wrap: break-word;
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  .menuItem2{
-    background-color: blueviolet;
-    margin-left: 4%;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    color: black;
-    word-wrap: break-word;
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  .menuItem3{
-    background-color: blueviolet;
-    margin-left: 4%;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    color: black;
-    word-wrap: break-word;
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  .menuItem4{
-    background-color: blueviolet;
-    margin-left: 4%;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    color: black;
-    word-wrap: break-word;
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  .menuItem5{
-    background-color: blueviolet;
-    margin-left: 4%;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    color: black;
-    word-wrap: break-word;
-    margin-top: 0px;
-    text-align: center;
-  }
-
-  
-
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
+.menuItem5{
+  background-color: blueviolet;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  margin-top: 0px;
+  text-align: center;
+}
 
 
-  .menu_links{
-    background-color:cadetblue;
-    margin-left: 25%;
-    width: 50%;
-    flex-wrap: wrap;
-    padding-top: 5px;
-    height: 60px;
-  }
 
-  .menu_nav {
-    width: 66%;
-    margin-left: 17%;
-    background-color: antiquewhite;
-    position: relative;
-  }
+a{
+  color: black;
+}
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
-  .showMenu {
-    transform: translateY(0);
-  }
+a:link {
+  outline: none;
+  text-decoration: none;
+}
 
-  #ru_eng{
-    display: block;
-    height: 68px;
-    margin-left: 83%;
-    margin-top: -70px;
-    background-color: bisque;
-    position: absolute;
-  }
+a:visited {
+  outline: none;
+  text-decoration: none;
+}
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
 
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
 
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
-  .ENG{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
+a:active {
+  border-bottom: 1px solid;
+}
 
 
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
 
-  .tittle1{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-    font: Inter;
-    font-weight: 800;
-    font-size: 45px;
-    letter-spacing: 0px;
-  }
 
-  .container{
-    /* 1305 */
-    background-color: aquamarine;
-    width: 68%; 
-    margin-top: 155px;
-    margin-left: 16%;
-    height: 2450px;
-    display: inline-block;
-    position: relative;
-  }
+.menu_links{
+  background-color:cadetblue;
+  margin-left: 25%;
+  width: 50%;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  height: 60px;
+}
 
-  .p1{
-    width: 100%;
-    margin-top: 40px;
-    font: Inter;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0px;
-    position: absolute;
+.menu_nav {
+  width: 66%;
+  margin-left: 17%;
+  background-color: antiquewhite;
+  position: relative;
+}
 
-  }
+/* .menuItem{
+  display: inline-block;
+} */
 
-  .categorii_tittle{
-    margin-left: 10px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 40px;
-    letter-spacing: 0px;
-    margin-top: 200px;
-  }
+.showMenu {
+  transform: translateY(0);
+}
 
-  .hr3{
-    margin-top: 10px;
-    width: 100%;
-    height: 4px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
+#ru_eng{
+  display: block;
+  height: 68px;
+  margin-left: 83%;
+  margin-top: -70px;
+  background-color: bisque;
+  position: absolute;
+}
 
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px 75px;
-    align-items: flex-start;
-    margin-top: 80px;
-    margin-left: 25px;
+.hr1{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 65px;
+  height: 2.5px;
+  color: #000;
+  border-color: #000;
+  background-color: #000;
+}
+
+.hr2{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: 2px;
+  color: #000;
+  border-color: #000;
+  background-color: #000;
+
+}
+
+.RU{
+  width: 30px;
+  height: 20px;
+  font: Inter;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+.ENG{
+  width: 30px;
+  height: 20px;
+  font: Inter;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+
+.tittle{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(38, 20, 94);
+  margin-top: 75px;
+  position: absolute;
+}
+
+.tittle1{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font: Inter;
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: 0px;
+}
+
+.container{
+  /* 1305 */
+  background-color: aquamarine;
+  width: 68%; 
+  margin-top: 155px;
+  margin-left: 16%;
+  height: 2450px;
+  display: inline-block;
+  position: relative;
+}
+
+.p1{
+  width: 100%;
+  margin-top: 40px;
+  font: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0px;
+  position: absolute;
+
+}
+
+.categorii_tittle{
+  margin-left: 10px;
+  font: Inter;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0px;
+  margin-top: 200px;
+}
+
+.hr3{
+  margin-top: 7px;
+  width: 100%;
+  height: 4px;
+  color: #000;
+  border-color: #000;
+  background-color: #000;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 75px;
+  align-items: flex-start;
+  margin-top: 80px;
+  margin-left: 25px;
 }
 
 .card1 {
@@ -989,8 +990,6 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
 
   #nav{
     position: fixed;
@@ -1008,6 +1007,7 @@ footer{
     flex-direction: row;
     align-items: center;
   }
+  
 
   .wrap{
     width: 66%;
@@ -1017,6 +1017,7 @@ footer{
     margin-left: 17%;
     background-color: blueviolet;
   }
+
 
   .logo_img{
     margin-top: 5px;
@@ -1040,6 +1041,7 @@ footer{
     display: none;
   }
 
+
   .burger1 {
     position: absolute;
     margin-top: -60px;
@@ -1058,6 +1060,8 @@ footer{
     height: 45px;
     
   }
+
+
   .burger::before,
   .burger::after {
     content: '';
@@ -1088,6 +1092,7 @@ footer{
     transform: rotate(-45deg);
     transition: bottom .3s, transform .3s .15s;
   }
+
   
   .menu {
     width: 100%;
@@ -1186,7 +1191,6 @@ footer{
     text-align: center;
   }
 
-  
 
   a{
     color: black;
@@ -1216,8 +1220,6 @@ footer{
     border-bottom: 1px solid;
   }
 
-  
-
 
   .menu_links{
     background-color:cadetblue;
@@ -1235,13 +1237,10 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
+
 
   #ru_eng{
     display: block;
@@ -1374,21 +1373,13 @@ footer{
 }
 
 .card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
 }
 
-.card_tittle1{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-}
 
 .card_num1{
     color: rgb(38, 20, 94);
@@ -1400,12 +1391,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -1439,6 +1424,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle2{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1458,12 +1444,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -1499,6 +1479,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle3{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1518,12 +1499,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -1558,6 +1533,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle4{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1577,12 +1553,6 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card4_logo1{
   width: 80%;
@@ -1636,12 +1606,6 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card5_logo1{
   width: 80%;
@@ -1672,6 +1636,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle6{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1691,12 +1656,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -1726,6 +1685,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle7{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1745,12 +1705,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -1780,6 +1734,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle8{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1799,12 +1754,6 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
 
 .card8_logo1{
   width: 80%;
@@ -1840,6 +1789,7 @@ footer{
   margin-top: 50px;
 }
 
+
 .card_tittle9{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -1859,12 +1809,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -1883,6 +1827,7 @@ footer{
   background-color: rgb(38, 20, 94);
   display: inline-block;
   position: relative;
+  bottom: 0;
 }
 
 .ur_adress{
@@ -2010,24 +1955,6 @@ footer{
       display: block;
     }
     
-    
-
-    #nav{
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 55;
-      width: 100%;
-      height: 75px;
-      background-color: aqua;
-      margin-top: 0;
-      padding-top: 0px;
-      padding-left: 5px;
-      padding-right: 5px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
 
     .wrap{
       width: 66%;
@@ -2038,27 +1965,6 @@ footer{
       background-color: blueviolet;
     }
 
-    .logo_img{
-      margin-top: 5px;
-      left: 0;
-      width: 130px;
-      height: 65px;
-    }
-    
-    /* .hamburger {
-      
-      width: 80px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-      margin-left: 1190px;
-      z-index: 100;
-      padding: 0px;
-      cursor: pointer;
-    } */
-    
-    .closeIcon {
-      display: none;
-    }
 
     .burger1 {
       position: absolute;
@@ -2078,36 +1984,7 @@ footer{
       height: 45px;
       
     }
-    .burger::before,
-    .burger::after {
-      content: '';
-      left: 0;
-      position: absolute;
-      display: block;
-      width: 100%;
-      height: 6px;
-      background: #000;
-    }
-    .burger::before {
-      top: 0;
-      box-shadow: 0 20px 0 #000;
-      transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-    }
-    .burger::after {
-      bottom: 0;
-      transition: bottom .3s .15s, transform .3s;
-    }
-    .burger.active::before {
-      top: 20px;
-      transform: rotate(45deg);
-      box-shadow: 0 6px 0 rgba(0,0,0,0);
-      transition: box-shadow .15s, top .3s, transform .3s .15s;
-    }
-    .burger.active::after {
-      bottom: 20px;
-      transform: rotate(-45deg);
-      transition: bottom .3s, transform .3s .15s;
-    }
+
     
     .menu {
       width: 100%;
@@ -2205,39 +2082,6 @@ footer{
       text-align: center;
     }
 
-    
-
-    a{
-      color: black;
-    }
-
-    a:link {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:visited {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:focus {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:active {
-      border-bottom: 1px solid;
-    }
-
-    
-
-
     .menu_links{
       background-color:cadetblue;
       margin-left: 25%;
@@ -2254,10 +2098,6 @@ footer{
       position: relative;
     }
 
-    /* .menuItem{
-      display: inline-block;
-    } */
-    
     .showMenu {
       transform: translateY(0);
     }
@@ -2392,13 +2232,6 @@ footer{
       box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text1{
-      width: 93%;
-      margin-left: 7%;
-      display: inline-block;
-      position: relative;
-      margin-top: 50px;
-  }
 
   .card_tittle1{
       color: rgb(38, 20, 94);
@@ -2419,12 +2252,6 @@ footer{
       position: absolute;
   }
 
-  .hr_card1{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 30px;
-  }
 
   .card1_logo1{
     width: 80%;
@@ -2450,13 +2277,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text2{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
 
   .card_tittle2{
     color: rgb(38, 20, 94);
@@ -2477,12 +2297,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card2{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 30px;
-  }
 
   .card2_logo1{
     width: 80%;
@@ -2510,14 +2324,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text3{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
-
   .card_tittle3{
     color: rgb(38, 20, 94);
     font: Inter;
@@ -2537,12 +2343,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card3{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 70px;
-  }
 
   .card3_logo1{
     width: 80%;
@@ -2569,13 +2369,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text4{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
 
   .card_tittle4{
     color: rgb(38, 20, 94);
@@ -2596,12 +2389,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card4{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 70px;
-  }
 
   .card4_logo1{
     width: 80%;
@@ -2628,13 +2415,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text5{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
 
   .card_tittle5{
     color: rgb(38, 20, 94);
@@ -2655,12 +2435,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card5{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 30px;
-  }
 
   .card5_logo1{
     width: 80%;
@@ -2683,13 +2457,7 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text6{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
+
 
   .card_tittle6{
     color: rgb(38, 20, 94);
@@ -2710,12 +2478,7 @@ footer{
     position: absolute;
   }
 
-  .hr_card6{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 70px;
-  }
+
 
   .card6_logo1{
     width: 80%;
@@ -2737,13 +2500,7 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text7{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
+
 
   .card_tittle7{
     color: rgb(38, 20, 94);
@@ -2764,12 +2521,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card7{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 70px;
-  }
 
   .card7_logo1{
     width: 80%;
@@ -2791,13 +2542,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
   }
 
-  .card_text8{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
 
   .card_tittle8{
     color: rgb(38, 20, 94);
@@ -2818,12 +2562,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card8{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 100px;
-  }
 
   .card8_logo1{
     width: 80%;
@@ -2851,13 +2589,7 @@ footer{
     margin-top: -380px;
   }
 
-  .card_text9{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-  }
+
 
   .card_tittle9{
     color: rgb(38, 20, 94);
@@ -2878,12 +2610,6 @@ footer{
     position: absolute;
   }
 
-  .hr_card9{
-    width: 94%;
-    height: 2.5px;
-    margin-left: 6%;
-    margin-top: 70px;
-  }
 
   .card9_logo1{
     width: 30%;
@@ -2942,24 +2668,6 @@ footer{
     display: block;
   }
   
-  
-
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
   .wrap{
     width: 72%;
@@ -2970,27 +2678,6 @@ footer{
     background-color: blueviolet;
   }
 
-  .logo_img{
-    margin-top: 5px;
-    left: 0;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
 
   .burger1 {
     position: absolute;
@@ -3010,36 +2697,7 @@ footer{
     height: 45px;
     
   }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+  
   
   .menu {
     width: 100%;
@@ -3137,35 +2795,6 @@ footer{
     text-align: center;
   }
 
-  
-
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
 
   
 
@@ -3186,13 +2815,10 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
+
 
   #ru_eng{
     display: block;
@@ -3324,13 +2950,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -3351,12 +2970,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -3382,13 +2995,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle2{
   color: rgb(38, 20, 94);
@@ -3409,12 +3015,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -3442,13 +3042,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -3469,12 +3062,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -3501,13 +3088,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -3528,12 +3109,6 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card4_logo1{
   width: 80%;
@@ -3560,13 +3135,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle5{
   color: rgb(38, 20, 94);
@@ -3585,13 +3153,6 @@ footer{
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
-}
-
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
 }
 
 .card5_logo1{
@@ -3615,13 +3176,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -3642,12 +3196,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -3669,13 +3217,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -3696,12 +3237,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -3723,14 +3258,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle8{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -3750,12 +3277,6 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
 
 .card8_logo1{
   width: 80%;
@@ -3783,13 +3304,6 @@ footer{
   margin-top: -380px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -3810,12 +3324,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -3872,25 +3380,7 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
 
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
   .wrap{
     width: 80%;
@@ -3901,27 +3391,6 @@ footer{
     background-color: blueviolet;
   }
 
-  .logo_img{
-    margin-top: 5px;
-    left: 0;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
 
   .burger1 {
     position: absolute;
@@ -3941,36 +3410,7 @@ footer{
     height: 45px;
     
   }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+
   
   .menu {
     width: 100%;
@@ -4066,36 +3506,6 @@ footer{
 
   
 
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
-
 
   .menu_links{
     background-color:cadetblue;
@@ -4113,10 +3523,6 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
@@ -4251,14 +3657,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
-
 .card_tittle1{
     color: rgb(38, 20, 94);
     font: Inter;
@@ -4276,13 +3674,6 @@ footer{
     letter-spacing: 0px;
     right: 5%;
     position: absolute;
-}
-
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
 }
 
 .card1_logo1{
@@ -4309,13 +3700,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle2{
   color: rgb(38, 20, 94);
@@ -4336,12 +3720,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -4369,13 +3747,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -4394,13 +3765,6 @@ footer{
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
-}
-
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
 }
 
 .card3_logo1{
@@ -4428,14 +3792,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle4{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4453,13 +3809,6 @@ footer{
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
-}
-
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
 }
 
 .card4_logo1{
@@ -4487,14 +3836,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle5{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4514,12 +3855,6 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card5_logo1{
   width: 80%;
@@ -4542,14 +3877,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle6{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4567,13 +3894,6 @@ footer{
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
-}
-
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
 }
 
 .card6_logo1{
@@ -4596,13 +3916,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -4623,12 +3936,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -4650,14 +3957,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle8{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4677,12 +3976,6 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
 
 .card8_logo1{
   width: 80%;
@@ -4710,14 +4003,6 @@ footer{
   margin-top: -380px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle9{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4737,12 +4022,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -4801,25 +4080,6 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
-
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
   .wrap{
     width: 86%;
@@ -4830,27 +4090,7 @@ footer{
     background-color: blueviolet;
   }
 
-  .logo_img{
-    margin-top: 5px;
-    left: 0;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
+
 
   .burger1 {
     position: absolute;
@@ -4870,36 +4110,7 @@ footer{
     height: 45px;
     
   }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+
   
   .menu {
     width: 100%;
@@ -4995,36 +4206,6 @@ footer{
 
   
 
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
-
 
   .menu_links{
     background-color:cadetblue;
@@ -5042,13 +4223,10 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
+
 
   #ru_eng{
     display: block;
@@ -5180,13 +4358,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -5207,12 +4378,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -5238,14 +4403,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle2{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -5265,12 +4422,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -5298,13 +4449,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -5325,12 +4469,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -5357,14 +4495,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle4{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -5384,12 +4514,6 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card4_logo1{
   width: 80%;
@@ -5416,13 +4540,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle5{
   color: rgb(38, 20, 94);
@@ -5443,12 +4560,6 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card5_logo1{
   width: 80%;
@@ -5471,13 +4582,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -5498,12 +4602,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -5525,14 +4623,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle7{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -5552,12 +4642,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -5579,13 +4663,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle8{
   color: rgb(38, 20, 94);
@@ -5606,12 +4683,6 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
 
 .card8_logo1{
   width: 80%;
@@ -5639,13 +4710,6 @@ footer{
   margin-top: -380px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -5666,12 +4730,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -5728,25 +4786,7 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
-
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+ 
 
   .wrap{
     width: 92%;
@@ -5757,27 +4797,6 @@ footer{
     background-color: blueviolet;
   }
 
-  .logo_img{
-    margin-top: 5px;
-    left: 0;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
 
   .burger1 {
     position: absolute;
@@ -5797,36 +4816,7 @@ footer{
     height: 45px;
     
   }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+
   
   .menu {
     width: 100%;
@@ -5935,39 +4925,6 @@ footer{
   }
 
 
-  
-
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
-
-
   .menu_links{
     background-color:cadetblue;
     margin-left: 14%;
@@ -5984,13 +4941,10 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
+
 
   #ru_eng{
     display: block;
@@ -6122,13 +5076,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -6149,12 +5096,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -6180,14 +5121,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle2{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -6207,12 +5140,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -6240,13 +5167,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -6267,12 +5187,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -6299,13 +5213,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -6326,12 +5233,6 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card4_logo1{
   width: 80%;
@@ -6358,13 +5259,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle5{
   color: rgb(38, 20, 94);
@@ -6385,12 +5279,6 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card5_logo1{
   width: 80%;
@@ -6413,13 +5301,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -6440,12 +5321,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -6467,13 +5342,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -6494,12 +5362,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -6521,13 +5383,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle8{
   color: rgb(38, 20, 94);
@@ -6548,12 +5403,6 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
 
 .card8_logo1{
   width: 80%;
@@ -6581,13 +5430,6 @@ footer{
   margin-top: -350px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -6608,12 +5450,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -6670,25 +5506,7 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
 
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 75px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
   .wrap{
     width: 92%;
@@ -6697,28 +5515,6 @@ footer{
     top: 0;
     margin-left: 4%;
     background-color: blueviolet;
-  }
-
-  .logo_img{
-    margin-top: 5px;
-    left: 5%;
-    width: 130px;
-    height: 65px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
   }
 
   .burger1 {
@@ -6739,36 +5535,7 @@ footer{
     height: 45px;
     
   }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 6px;
-    background: #000;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+  
   
   .menu {
     width: 100%;
@@ -6878,36 +5645,6 @@ footer{
 
   
 
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
-
 
   .menu_links{
     background-color:cadetblue;
@@ -6925,10 +5662,6 @@ footer{
     position: relative;
   }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
@@ -7064,13 +5797,7 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
+
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -7091,12 +5818,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -7123,13 +5844,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle2{
   color: rgb(38, 20, 94);
@@ -7150,12 +5865,7 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
+
 
 .card2_logo1{
   width: 80%;
@@ -7184,13 +5894,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -7211,12 +5915,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -7244,13 +5942,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -7271,12 +5962,7 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
+
 
 .card4_logo1{
   width: 80%;
@@ -7304,13 +5990,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle5{
   color: rgb(38, 20, 94);
@@ -7331,12 +6011,7 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
+
 
 .card5_logo1{
   width: 80%;
@@ -7360,13 +6035,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -7387,12 +6056,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -7415,13 +6078,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -7442,12 +6099,7 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
+
 
 .card7_logo1{
   width: 80%;
@@ -7470,13 +6122,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle8{
   color: rgb(38, 20, 94);
@@ -7497,12 +6143,7 @@ footer{
   position: absolute;
 }
 
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
-}
+
 
 .card8_logo1{
   width: 80%;
@@ -7531,13 +6172,7 @@ footer{
   margin-top: 0px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
+
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -7558,12 +6193,6 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card9_logo1{
   width: 30%;
@@ -7620,122 +6249,26 @@ footer{
     box-sizing: border-box;
     display: block;
   }
-  
-  
 
-  #nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 55;
-    width: 100%;
-    height: 60px;
-    background-color: aqua;
-    margin-top: 0;
-    padding-top: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
-  .wrap{
-    width: 92%;
-    height: 60px;
-    position: absolute;
-    top: 0;
-    margin-left: 4%;
-    background-color: blueviolet;
-  }
 
-  .logo_img{
-    margin-top: 5px;
-    left: 5%;
-    width: 100px;
-    height: 50px;
-  }
-  
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
-  
-  .closeIcon {
-    display: none;
-  }
 
   .burger1 {
     position: absolute;
-    margin-top: -50px;
-    margin-left: 80%;
+    margin-top: -60px;
+    margin-left: 82%;
   }
 
-  .burger {
-    position: absolute;
-    cursor: pointer;
+  #ru_eng{
     display: block;
-    position: relative;
-    border: none;
-    z-index: 100;
-    background: transparent;
-    width: 50px;
-    height: 42px;
-    
-  }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
+    height: 68px;
+    margin-left: 62%;
+    margin-top: -70px;
+    background-color: bisque;
     position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    background: #000;
   }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 20px 0 #000;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger.active::before {
-    top: 20px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger.active::after {
-    bottom: 20px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
-  
-  .menu {
-    width: 100%;
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: -25px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    list-style: none;
-    padding-top: 0;
-    color: black;
-    padding-top: 25px;
-    background-color: #ffffff;
-    height: 345px;
-  }
+
+
 
   .menuItem1{
     margin-top: 20px;
@@ -7826,38 +6359,6 @@ footer{
     text-align: center;
   }
 
-  
-
-  a{
-    color: black;
-  }
-
-  a:link {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    outline: none;
-    text-decoration: none;
-  }
-  
-  a:active {
-    border-bottom: 1px solid;
-  }
-
-  
-
 
   .menu_links{
     background-color:cadetblue;
@@ -7868,77 +6369,22 @@ footer{
     height: 230px;
   }
 
-  .menu_nav {
-    width: 92%;
-    margin-left: 4%;
-    background-color: antiquewhite;
-    position: relative;
-  }
 
-  /* .menuItem{
-    display: inline-block;
-  } */
-  
   .showMenu {
     transform: translateY(0);
   }
 
-  #ru_eng{
-    display: block;
-    height: 46px;
-    margin-left: 65%;
-    margin-top: -52px;
-    background-color: bisque;
-    position: absolute;
-  }
 
-  .hr1{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    width: 45px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
 
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
 
-  }
-
-  .RU{
-    width: 25px;
-    height: 17px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
-  .ENG{
-    width: 25px;
-    height: 17px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
+ 
 
 
   .tittle{
     width: 100%;
     height: 50px;
     background-color: rgb(38, 20, 94);
-    margin-top: 60px;
+    margin-top: 75px;
     position: absolute;
   }
 
@@ -7956,7 +6402,7 @@ footer{
     /* 1305 */
     background-color: aquamarine;
     width: 92%; 
-    margin-top: 110px;
+    margin-top: 125px;
     margin-left: 4%;
     height: 4300px;
     display: inline-block;
@@ -8014,13 +6460,6 @@ footer{
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text1{
-    width: 93%;
-    margin-left: 7%;
-    display: inline-block;
-    position: relative;
-    margin-top: 50px;
-}
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -8041,12 +6480,6 @@ footer{
     position: absolute;
 }
 
-.hr_card1{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card1_logo1{
   width: 80%;
@@ -8073,13 +6506,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text2{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle2{
   color: rgb(38, 20, 94);
@@ -8100,12 +6526,6 @@ footer{
   position: absolute;
 }
 
-.hr_card2{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card2_logo1{
   width: 80%;
@@ -8134,13 +6554,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text3{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle3{
   color: rgb(38, 20, 94);
@@ -8161,12 +6574,6 @@ footer{
   position: absolute;
 }
 
-.hr_card3{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card3_logo1{
   width: 80%;
@@ -8194,13 +6601,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text4{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -8221,12 +6621,6 @@ footer{
   position: absolute;
 }
 
-.hr_card4{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card4_logo1{
   width: 80%;
@@ -8254,14 +6648,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text5{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
-
 .card_tittle5{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -8281,12 +6667,6 @@ footer{
   position: absolute;
 }
 
-.hr_card5{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 30px;
-}
 
 .card5_logo1{
   width: 80%;
@@ -8310,13 +6690,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text6{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -8337,12 +6710,6 @@ footer{
   position: absolute;
 }
 
-.hr_card6{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card6_logo1{
   width: 80%;
@@ -8365,13 +6732,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text7{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -8392,12 +6752,6 @@ footer{
   position: absolute;
 }
 
-.hr_card7{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
 
 .card7_logo1{
   width: 80%;
@@ -8420,13 +6774,6 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
-.card_text8{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle8{
   color: rgb(38, 20, 94);
@@ -8445,13 +6792,6 @@ footer{
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
-}
-
-.hr_card8{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 100px;
 }
 
 .card8_logo1{
@@ -8481,13 +6821,6 @@ footer{
   margin-top: 0px;
 }
 
-.card_text9{
-  width: 93%;
-  margin-left: 7%;
-  display: inline-block;
-  position: relative;
-  margin-top: 50px;
-}
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -8508,12 +6841,7 @@ footer{
   position: absolute;
 }
 
-.hr_card9{
-  width: 94%;
-  height: 2.5px;
-  margin-left: 6%;
-  margin-top: 70px;
-}
+
 
 .card9_logo1{
   width: 30%;
