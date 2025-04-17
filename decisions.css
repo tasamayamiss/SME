@@ -3526,6 +3526,97 @@ footer{
   
   @media (max-width:450px){
 
+    .menuItem1{
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      background-color: blueviolet;
+      margin-left: 0;
+      font: Inter;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      color: black;
+      word-wrap: break-word;
+      text-align: center;
+  
+    }
+  
+    .menuItem2{
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+      background-color: blueviolet;
+      margin-left: 0;
+      font: Inter;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      color: black;
+      word-wrap: break-word;
+      text-align: center;
+  
+    }
+  
+    .menuItem3{
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      background-color: blueviolet;
+      margin-left: 0;
+      font: Inter;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      color: black;
+      word-wrap: break-word;
+      text-align: center;
+  
+    }
+  
+    .menuItem4{
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      background-color: blueviolet;
+      margin-left: 0;
+      font: Inter;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      color: black;
+      word-wrap: break-word;
+      text-align: center;
+  
+    }
+  
+    .menuItem5{
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      background-color: blueviolet;
+      margin-left: 0;
+      font: Inter;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: 0px;
+      display: inline-block;
+      vertical-align: middle;
+      color: black;
+      word-wrap: break-word;
+      text-align: center;
+    }
+  
+  
+
     .tittle{
       width: 100%;
       height: 50px;
@@ -3540,7 +3631,7 @@ footer{
       color: white;
       font: Inter;
       font-weight: 700;
-      font-size: 35px;
+      font-size: 28px;
       letter-spacing: 0px;
     }
   
@@ -3581,7 +3672,7 @@ footer{
     }
   
     .card_tittle1{
-      font-size: 20px;
+      font-size: 18px;
     }
   
     .card2 {
@@ -3593,7 +3684,7 @@ footer{
     }
   
     .card_tittle2{
-      font-size: 20px;
+      font-size: 18px;
     }
   
     .card3 {
@@ -3603,7 +3694,8 @@ footer{
     }
 
     .card_tittle3{
-      font-size: 20px;
+      font-size: 18px;
     }
+
   
   }

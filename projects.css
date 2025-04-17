@@ -1,8 +1,9 @@
 #preloader {
-  width: 90%;
+  width: 100%;
+  height: 1000px;
   position: fixed;
   top: 0;
-  left: 5%;
+  left: 0;
   right: 0;
   bottom: 0;
   background-color: #ffffff;
@@ -955,8 +956,8 @@ footer{
 
 
   .card1 {
-    width: 42%;
-    margin-left: 3%;
+    width: 40%;
+    margin-left: 5%;
   }
 
   .card_text1{
@@ -970,7 +971,7 @@ footer{
       color: rgb(38, 20, 94);
       font: Inter;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 18px;
       letter-spacing: 0px;
       position: absolute;
       margin-left: 12%;
@@ -1011,8 +1012,8 @@ footer{
 
 
   .card2 {
-      width: 42%;
-      margin-right: 3%;
+      width: 40%;
+      margin-right: 5%;
   }
 
   .card_text2{
@@ -1026,7 +1027,7 @@ footer{
     color: rgb(38, 20, 94);
     font: Inter;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0px;
     position: absolute;
     margin-left: 12%;
@@ -1063,8 +1064,8 @@ footer{
 
 
   .card3 {
-    width: 42%;
-    margin-left: 29%;
+    width: 40%;
+    margin-left: 30%;
   }
 
   .card_text3{
@@ -1079,7 +1080,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0px;
   position: absolute;
   margin-left: 15%;
@@ -2919,6 +2920,25 @@ footer{
 
 @media (max-width:450px){
 
+  .tittle{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 20, 94);
+    margin-top: 75px;
+    position: absolute;
+  }
+
+  .tittle1{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0px;
+  }
+
+
   #ru_eng{
     display: block;
     height: 68px;
@@ -2959,5 +2979,124 @@ footer{
     margin-left: 2%;
     height: 530px;
   }
+
+  .tittle{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 20, 94);
+    margin-top: 75px;
+    position: absolute;
+  }
+
+  .tittle1{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0px;
+  }
+
+  .menu_links{
+    background-color:cadetblue;
+    margin-left: 5%;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    height: 250px;
+  }
+
+  .menuItem1{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem2{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem3{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem4{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+
+  }
+
+  .menuItem5{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-left: 0;
+    font: Inter;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+
+
 
 }
