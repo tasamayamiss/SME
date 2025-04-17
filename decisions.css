@@ -3487,6 +3487,10 @@ footer{
   
   
   @media (max-width:550px){
+
+    .cards{
+      margin-top: 50px;
+    }
   
     #ru_eng{
       display: block;
@@ -3525,6 +3529,10 @@ footer{
   
   
   @media (max-width:450px){
+
+    .cards{
+      margin-top: 0px;
+    }
 
     .menuItem1{
       margin-top: 20px;

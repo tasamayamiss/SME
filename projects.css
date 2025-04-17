@@ -2835,6 +2835,10 @@ footer{
 
 
 @media (max-width:750px){
+
+  .cards{
+    margin-top: 50px;
+  }
   .card1 {
     width: 70%;
     height: 530px;
@@ -2919,6 +2923,10 @@ footer{
 
 
 @media (max-width:450px){
+
+  .cards{
+    margin-top: 0px;
+  }
 
   .tittle{
     width: 100%;
