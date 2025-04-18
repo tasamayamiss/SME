@@ -13,9 +13,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("product");
-    var slides1 = document.getElementsByClassName("karusel_footer_text");
-    var slides2 = document.getElementsByClassName("karusel_text");
+    var slides = document.getElementsByClassName("imges");
 
     
     if (n > slides.length) {
@@ -26,13 +24,7 @@ function showSlides(n) {
     }
     for (i=0; i < slides.length; i++){ 
         slides[i].style.display="none";
-        slides1[i].style.display="none";
-        slides2[i].style.display="none";
     }
    
     slides [slideIndex-1].style.display = "block";
-    slides1 [slideIndex-1].style.display = "block";
-    slides2 [slideIndex-1].style.display = "block";
 }
-
-

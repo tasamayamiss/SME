@@ -38,11 +38,11 @@ charset="UTF8"/>
                     <hr class="hr2" width="1920px" color="black" size="4">
                     <div class="menu_links">
                         
-                        <a class="menuItem1" href="#">о нас</a>
-                        <a class="menuItem" href="#">наши <br>партнеры</a>
-                        <a class="menuItem" href="#">наши <br>проекты</a>
-                        <a class="menuItem" href="#">иновационные <br>решения</a>
-                        <a class="menuItem5" href="#">контакты</a>
+                        <a class="menuItem1" href="index.html">о нас</a>
+                        <a class="menuItem" href="partners.html">наши <br>партнеры</a>
+                        <a class="menuItem" href="projects.html">наши <br>проекты</a>
+                        <a class="menuItem" href="decisions.html">иновационные <br>решения</a>
+                        <a class="menuItem5" href="contacts.html">контакты</a>
                     </div>
                 </div>
                 <div class="burger1">
@@ -63,23 +63,23 @@ charset="UTF8"/>
             <hr class="hr3" width="796px" color="black" size="5">
             
             <form action="contacts.php" method="POST">
-                <input type="hidden" name="access_key" value="93850aba-310e-4cde-b838-c281f5857040">
+                <!-- <input type="hidden" name="access_key" value="5bb0f885-f598-4c05-9398-728c5aced05e"> -->
                 <div class="form_content">
-                <span>Введите ФИО:</span>
+                <div class="div1"><span class="sp1">Введите ФИО:</span>
                 <input type="text" name="fio" id="" class="box" required
-                autocomplete="off">
-                <span>Введите email:</span>
+                autocomplete="off"></div>
+                <div class="div2"><span class="sp2">Введите email:</span>
                 <input type="email" name="email" id="" class="box" required
-                autocomplete="off">
-                <span>Введите телефон:</span>
+                autocomplete="off"></div>
+                <div class="div3"><span class="sp3">Введите телефон:</span>
                 <input type="number" name="number" id="" class="box" required
-                autocomplete="off">
-                <span>Компания:</span>
+                autocomplete="off"></div>
+                <div class="div4"><span class="sp4">Компания:</span>
                 <input type="text" name="company" id="" class="box" required
-                autocomplete="off">
-                <span>Введите Ваше сообщение:</span>
+                autocomplete="off"></div>
+                <div class="div5"><span class="sp5">Введите Ваше сообщение:</span>
                 <input class="message" type="text" name="message" id="" class="box" required
-                autocomplete="off">
+                autocomplete="off"></div>
                 </div>
 
                 <input type="submit" value="Отправить" class="btn" name="send">

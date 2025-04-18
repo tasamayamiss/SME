@@ -322,6 +322,7 @@ margin: 0;
     border: 3px solid #000;
     border-radius: 55px;
     position: relative;
+    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
 }
 
 .forma_name{
@@ -336,24 +337,12 @@ margin: 0;
     position: absolute;
 }
 
-.hr3{
-    margin-top: 115px;
-    position: absolute;
-}
 
 .form_content{
     margin-top: 165px;
     width: 800px;
 }
-span{
-    margin-top: 100px;
-    margin-left: 50px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 35px;
-    letter-spacing: 0px;
-    color:  rgb(38, 20, 94);
-}
+
 
 input{
     width: 700px;
@@ -374,7 +363,44 @@ input{
     background-color: rgb(38, 20, 94);
     margin-top: 50px;
     margin-left: 225px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
 }
+
+span{
+    margin-left: 50px;
+    font: Inter;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 0px;
+    color:  rgb(38, 20, 94);
+}
+
+.div1{
+    margin-top: 50px;
+}
+
+.div2{
+    margin-top: 30px;
+}
+
+.div3{
+    margin-top: 30px;
+}
+
+.div4{
+    margin-top: 30px;
+}
+
+.div5{
+    margin-top: 30px;
+}
+
 
 
 
@@ -382,7 +408,7 @@ input{
 footer{
     width: 1920px;
     height: 180px;
-    margin-top: 1200px;
+    margin-top: 200px;
     background-color: rgb(38, 20, 94);
     display: inline-block;
     position: relative;
