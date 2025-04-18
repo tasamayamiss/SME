@@ -3291,6 +3291,217 @@ footer{
 
 @media (max-width:550px){
 
+  .td1{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(51, 27, 118);
+    color: #ffffff;
+  }
+
+  .td2{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(51, 27, 118);
+    color: #ffffff;
+  }
+
+
+  .td3{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td4{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td5{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td6{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td7{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td8{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td9{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td10{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td11{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td12{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td13{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td14{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td15{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td16{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td17{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td18{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td19{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td20{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td21{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td22{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td23{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td24{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td25{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td26{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td27{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td28{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(225, 213, 255);
+    /* color: #ffffff; */
+  }
+
+  .td29{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
+  .td30{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(242, 238, 255);
+    /* color: #ffffff; */
+  }
+
   .hr3{
     margin-top: 85px;
   }
@@ -3577,7 +3788,7 @@ footer{
 }
 
 
-@media (max-width:450px){
+@media (max-width:410px){
 
   .karusel_button2{
     margin-left: 78%;
