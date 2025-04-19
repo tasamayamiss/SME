@@ -14,7 +14,7 @@
 }
 
 .preloader_img{
-  margin-top: 150px;
+  margin-top: 50px;
   width: 80%;
   animation: small-big-small 2s ease-in-out;
   position: fixed;
