@@ -3808,6 +3808,29 @@ footer{
   }
 }
 
+@media (max-width:350px){
+  .content{
+    background-color: gainsboro;
+    width: 100%;
+    height: 2800px;
+    margin: 0;
+    padding-top: 0px;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .container{
+    /* 1305 */
+    background-color: aquamarine;
+    width: 92%; 
+    margin-top: 125px;
+    margin-left: 4%;
+    height: 2950px;
+    display: inline-block;
+    position: relative;
+  }
+}
+
 
 
 
