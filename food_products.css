@@ -2879,13 +2879,431 @@ transform: translateY(0);
 
 
   @media (max-width:1094px){
+  
+    .p_offer{
+      font-size: 22px;
+    }
+    .text1{
+      font-size: 22px;
+    }
+  
+  
+    .block1_tittle{
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .block1_card1_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card2_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card3_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card4_text{
+  
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block2_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card1_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card2_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card3_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+  
+    .block2_card4_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card5_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+  
+    .block3_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .card_num1{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 27px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card1_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num2{
+      color: rgb(38, 20, 94);
+      margin-top: 27px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card2_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num3{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 27px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card3_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num4{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 85%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card4_text{
+      margin-top: 32px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num5{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 85%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 27px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card5_text{
+      margin-top: 32px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block4_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    li{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-top: 15px;
+    }
+  
+  
+    .block5_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+
+  
+    .li_block5{
+      margin-top: 25px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num1{
+      margin-left: 25%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 90px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card1_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+  
+    .block6_card_num2{
+      margin-left: 25%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 90px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card2_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num3{
+      margin-left: 33%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 90px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card3_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num4{
+      margin-left: 33%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 90px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card4_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num5{
+      margin-left: 37%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 90px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card5_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: -90px;
+      text-align: center;
+    }
+  
+  
+    .products_line_tittle{
+      margin-left: 25px;
+      position: absolute;
+      font: Inter;
+      font-weight: 600;
+      font-size: 50px;
+      letter-spacing: 0px;
+      margin-top: 150px;
+    }
+
+  
+    .karusel_header{
+      width: 100%;
+      padding: 5px;
+      background-color: rgb(38, 20, 94);
+      border-radius: 29px 29px 0px 0px;
+      position: absolute;
+      font: Inter;
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0px;
+    }
+  
+    .karusel_p{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 30px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+      background-color: aqua;
+    }
+  
+    .karusel_li{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      
+    }
+  
+    .karusel_footer_text{
+      color: #ffffff;
+      font: Inter;
+      font-weight: 500;
+      font-size: 22px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
 
     .container{
-      height: 11100px;
+      height: 10750px;
     }
 
     .content{
-      height: 11450px;
+      height: 11100px;
     }
 
 
@@ -2899,27 +3317,11 @@ transform: translateY(0);
       border-radius: 30px ;
       padding: 7px;
     }
-  
-    .p_offer{
-      /* width: 1200px;
-      margin-top: 28px;
-      margin-left: 35px; */
-      font: Inter;
-      font-weight: 700;
-      font-size: 28px;
-      letter-spacing: 0px;
-      color: rgb(38, 20, 94);
-      text-align: center;
-  
-    }
+
     .text1{
       margin-top: 500px;
       margin-left: 8%;
       margin-right: 8%;
-      font: Inter;
-      font-weight: 400;
-      font-size: 25px;
-      letter-spacing: 0px;
     }
   
     .contract{
@@ -2927,16 +3329,6 @@ transform: translateY(0);
       margin-left: 25%;
       margin-top: 100px;
       border: 2px solid #000;
-    }
-  
-    .features_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 150px;
     }
   
     
@@ -3225,56 +3617,6 @@ transform: translateY(0);
       border-radius: 50px;
     }
 
-
-    .block6_card_num1{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num2{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num3{
-      margin-left: 33%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num4{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num5{
-      margin-left: 37%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
 
   
     .karusel_products{
@@ -3752,11 +4094,11 @@ transform: translateY(0);
 
 
     .container{
-      height: 11700px;
+      height: 11200px;
     }
 
     .content{
-      height: 12000px;
+      height: 11500px;
     }
 
 
@@ -4316,11 +4658,11 @@ transform: translateY(0);
       width: 92%;
       margin-left: 4%;
       margin-top: 220px;
-      height: 12700px;
+      height: 11700px;
     }
 
     .content{
-      height: 13050px;
+      height: 12000px;
     }
 
 
@@ -4348,7 +4690,7 @@ transform: translateY(0);
   
     }
     .text1{
-      margin-top: 600px;
+      margin-top: 450px;
       margin-left: 7%;
       margin-right: 7%;
       font: Inter;
@@ -4665,7 +5007,7 @@ transform: translateY(0);
 
 
     .block6_card_num1{
-      margin-left: 28%;
+      margin-left: 32%;
       margin-top: 50px;
       color: rgb(38, 20, 94);
       font: Inter;
@@ -4675,7 +5017,7 @@ transform: translateY(0);
     }
   
     .block6_card_num2{
-      margin-left: 28%;
+      margin-left:32%;
       margin-top: 50px;
       color: rgb(38, 20, 94);
       font: Inter;
@@ -4685,7 +5027,7 @@ transform: translateY(0);
     }
   
     .block6_card_num3{
-      margin-left: 33%;
+      margin-left: 38%;
       margin-top: 50px;
       color: rgb(38, 20, 94);
       font: Inter;
@@ -4695,7 +5037,7 @@ transform: translateY(0);
     }
   
     .block6_card_num4{
-      margin-left: 28%;
+      margin-left: 33%;
       margin-top: 50px;
       color: rgb(38, 20, 94);
       font: Inter;
@@ -4705,7 +5047,7 @@ transform: translateY(0);
     }
   
     .block6_card_num5{
-      margin-left: 37%;
+      margin-left: 40%;
       margin-top: 50px;
       color: rgb(38, 20, 94);
       font: Inter;
@@ -4978,255 +5320,551 @@ transform: translateY(0);
 
   @media (max-width:750px){
 
+    .container{
+      height: 10700px;
+    }
+
+    .content{
+      height: 11000px;
+    }
+
+  
+    .block1_card1{
+
+      height: 150px;
+    }
+  
+
+  
+    .block1_card2{
+
+      height: 150px;
+    }
+  
+
+  
+    .block1_card3{
+      height: 150px;
+    }
+
+  
+    .block1_card4{
+      height: 150px;
+    }
+  
+
+  
+
+  
+
+  
+    .block3_card1{
+      height: 300px;
+    }
+
+  
+    .block3_card2{
+      height: 280px;
+    }
+  
+    .block3_card3{
+      height: 280px;
+    }
+  
+
+  
+    .block3_card4{
+      height: 280px;
+    }
+  
+
+  
+    .block3_card5{
+      height:280px;
+    }
+  
+
+
+  
+
+  
+ 
+
+  
+    .block6_card1{
+      height: 260px;
+    }
+  
+    .block6_card2{
+      height: 260px;
+    }
+  
+    .block6_card3{
+      height: 260px;
+    }
+  
+    .block6_card4{
+      height: 260px;
+    }
+  
+    .block6_card5{
+      height: 260px;
+    }
+
+  
+
     .karusel{
       margin-top: 160px;
     }
 
-    .hr4{
-      width: 100%;
-      margin-top: 265px;
-      height: 4px;
+    
+
+    .p_offer{
+      
+      font-size: 20px;
     }
+    .text1{
+      margin-top: 350px;
+      font-size: 20px;
+    }
+  
+  
+    .block1_tittle{
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .block1_card1_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card2_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card3_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block1_card4_text{
+  
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block2_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card1_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card2_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card3_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+  
+    .block2_card4_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+    .block2_card5_text{
+      text-align: center;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+  
+    .block3_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .card_num1{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card1_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num2{
+      color: rgb(38, 20, 94);
+      margin-top: 27px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card2_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num3{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 83%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card3_text{
+      margin: 7px;
+      margin-top: 32px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num4{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 85%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card4_text{
+      margin-top: 32px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .card_num5{
+      color: rgb(38, 20, 94);
+      margin-top: 30px;
+      margin-left: 85%;
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+    }
+  
+    .block3_card5_text{
+      margin-top: 32px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  
+    .block4_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    li{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-top: 15px;
+    }
+  
+  
+    .block5_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+
+  
+    .li_block5{
+      margin-top: 25px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_tittle{
+      text-align: center;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num1{
+      margin-left: 35%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card1_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+  
+    .block6_card_num2{
+      margin-left: 35%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card2_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num3{
+      margin-left: 40%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card3_text{
+      width: 90%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      position: absolute;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num4{
+      margin-left: 36%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card4_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: -60px;
+      text-align: center;
+    }
+  
+    .block6_card_num5{
+      margin-left: 42%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card5_text{
+      font: Inter;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: -70px;
+      text-align: center;
+    }
+  
+  
+    .products_line_tittle{
+      margin-left: 25px;
+      position: absolute;
+      font: Inter;
+      font-weight: 600;
+      font-size: 50px;
+      letter-spacing: 0px;
+      margin-top: 150px;
+    }
+
+  
+    .karusel_header{
+      width: 100%;
+      padding: 5px;
+      background-color: rgb(38, 20, 94);
+      border-radius: 29px 29px 0px 0px;
+      position: absolute;
+      font: Inter;
+      font-weight: 800;
+      font-size: 28px;
+      letter-spacing: 0px;
+    }
+  
+    .karusel_p{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 30px;
+      font: Inter;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 0px;
+      text-align: center;
+      background-color: aqua;
+    }
+  
+    .karusel_li{
+      font: Inter;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 0px;
+      
+    }
+  
+    .karusel_footer_text{
+      color: #ffffff;
+      font: Inter;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
 
   }
 
 
 
   @media (max-width:650px){
-    .offer{
-      margin-top: 70px;
-      width: 100%;;
-      margin-left: 0%;
-      position: absolute;
-      border: 2px solid rgb(38, 20, 94);
-      border-radius: 30px ;
-      padding: 7px;
-    }
-  
-    .p_offer{
-      /* width: 1200px;
-      margin-top: 28px;
-      margin-left: 35px; */
-      font: Inter;
-      font-weight: 700;
-      font-size: 28px;
-      letter-spacing: 0px;
-      color: rgb(38, 20, 94);
-      text-align: center;
-  
-    }
-    .text1{
-      margin-top: 650px;
-      margin-left: 5%;
-      margin-right: 5%;
-      font: Inter;
-      font-weight: 400;
-      font-size: 25px;
-      letter-spacing: 0px;
-    }
-  
-    .contract{
-      width: 80%;
-      margin-left: 10%;
-      margin-top: 100px;
-      border: 2px solid #000;
-    }
-
-
-    .block1_card1{
-      width: 100%;
-      height: 280px;
-      padding: 5px;
-      border: 2px solid #000;
-      display: inline-block;
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 35px;
-    }
-  
-    .block1_card2{
-      width: 100%;
-      height: 270px;
-      padding: 5px;
-      border: 2px solid #000;
-      position: relative;
-      display: inline-block;
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 35px;
-      background-color: rgb(239, 239, 239);
-    }
-  
-  
-    .block1_card3{
-      width: 100%;
-      height: 210px;
-      padding: 5px;
-      border: 2px solid #000;
-      position: relative;
-      display: inline-block;
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 35px;
-      background-color: rgb(239, 239, 239);
-    }
-
-  
-    .block1_card4{
-      height: 250px;
-      width: 100%;
-      padding: 5px;
-      border: 2px solid #000;
-      position: relative;
-      display: inline-block;
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 35px;
-    }
-
-
-    .block3_card1{
-      margin-left: 0%;
-      width: 100%;
-      height: 320px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card2{
-      margin-left: 0%;
-      width: 100%;
-      height: 300px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card3{
-      margin-left: 0%;
-      width: 100%;
-      height: 300px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card4{
-      width: 100%;
-      margin-left: 0%;
-      height: 300px;
-      border-radius: 50px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card5{
-      margin-left: 0%;
-      width: 100%;
-      height:300px;
-      border-radius: 50px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-
-
-    .block6_card1{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card2{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card3{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card4{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      margin-top: 0;
-    }
-  
-    .block6_card5{
-      width: 100%;
-      margin-left: 0%;
-      height: 330px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-    }
-
 
     .block6_card_num1{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
+      margin-left: 33%;
     }
   
     .block6_card_num2{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
+      margin-left: 33%;
     }
   
     .block6_card_num3{
-      margin-left: 33%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
+      margin-left: 40%;
     }
   
     .block6_card_num4{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
+      margin-left: 34%;
     }
   
     .block6_card_num5{
-      margin-left: 37%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
+      margin-left: 40%;
     }
-
+    
     .buttons{
       background-color: aliceblue;
       width: 100%;
@@ -5250,11 +5888,15 @@ transform: translateY(0);
 
     .container{
       margin-top: 220px;
-      height: 13000px;
+      height: 10700px;
     }
 
     .content{
-      height: 13300px;
+      height: 11000px;
+    }
+
+    .hr4{
+      margin-top: 275px;
     }
   
   
@@ -5262,239 +5904,7 @@ transform: translateY(0);
 
 
   @media (max-width:570px){
-    .offer{
-      margin-top: 70px;
-      width: 100%;;
-      margin-left: 0%;
-      position: absolute;
-      border: 2px solid rgb(38, 20, 94);
-      border-radius: 30px ;
-      padding: 7px;
-    }
-  
-    .p_offer{
-      /* width: 1200px;
-      margin-top: 28px;
-      margin-left: 35px; */
-      font: Inter;
-      font-weight: 700;
-      font-size: 25px;
-      letter-spacing: 0px;
-      color: rgb(38, 20, 94);
-      text-align: center;
-  
-    }
-    .text1{
-      margin-top: 500px;
-      margin-left: 3%;
-      margin-right: 3%;
-      font: Inter;
-      font-weight: 400;
-      font-size: 25px;
-      letter-spacing: 0px;
-    }
-  
-    .contract{
-      width: 80%;
-      margin-left: 10%;
-      margin-top: 100px;
-      border: 2px solid #000;
-    }
-
-    .features_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 45px;
-      letter-spacing: 0px;
-      margin-top: 150px;
-    }
-
-
-    .block1_card1_text{
-      font: Inter;
-      font-weight: 400;
-      font-size: 22px;
-      letter-spacing: 0px;
-      text-align: center;
-    }
-  
-    .block1_card2_text{
-      font: Inter;
-      font-weight: 400;
-      font-size: 22px;
-      letter-spacing: 0px;
-      text-align: center;
-    }
-  
-    .block1_card3_text{
-      font: Inter;
-      font-weight: 400;
-      font-size: 22px;
-      letter-spacing: 0px;
-      text-align: center;
-    }
-  
-    .block1_card4_text{
-  
-      font: Inter;
-      font-weight: 400;
-      font-size: 22px;
-      letter-spacing: 0px;
-      text-align: center;
-    }
-
-
     
-
-
-    .block3_card1{
-      margin-left: 0%;
-      width: 100%;
-      height: 350px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card2{
-      margin-left: 0%;
-      width: 100%;
-      height: 330px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card3{
-      margin-left: 0%;
-      width: 100%;
-      height: 330px;
-      border-radius: 40px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card4{
-      width: 100%;
-      margin-left: 0%;
-      height: 330px;
-      border-radius: 50px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-  
-    .block3_card5{
-      margin-left: 0%;
-      width: 100%;
-      height:330px;
-      border-radius: 50px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    }
-
-
-    .block6_card1{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card2{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card3{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      position: relative;
-    }
-  
-    .block6_card4{
-      width: 100%;
-      margin-left: 0%;
-      height: 280px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-      margin-top: 0;
-    }
-  
-    .block6_card5{
-      width: 100%;
-      margin-left: 0%;
-      height: 330px;
-      border: 2px solid rgb(38, 20, 94);
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-      border-radius: 50px;
-    }
-
-
-    .block6_card_num1{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num2{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num3{
-      margin-left: 33%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num4{
-      margin-left: 28%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-  
-    .block6_card_num5{
-      margin-left: 37%;
-      margin-top: 50px;
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 100px;
-      letter-spacing: 0px;
-    }
-
     .buttons{
       background-color: aliceblue;
       width: 100%;
@@ -5518,11 +5928,15 @@ transform: translateY(0);
 
         .container{
           margin-top: 220px;
-          height: 13400px;
+          height: 11000px;
         }
     
         .content{
-          height: 13700px;
+          height: 11300px;
+        }
+
+        .text1{
+          margin-top: 400px;
         }
   
   
@@ -5530,6 +5944,191 @@ transform: translateY(0);
 
 
   @media (max-width:500px){
+
+    .offer{
+      margin-top: 50px;
+    }
+
+  
+
+    .block1_cards{
+      margin-top: 50px;
+    }
+
+
+    .block1_card1{
+      height: 210px;
+    }
+  
+
+  
+    .block1_card2{
+      height: 200px;
+    }
+  
+
+  
+    .block1_card3{
+      height: 140px;
+    }
+
+  
+    .block1_card4{
+      height: 190px;
+    }
+  
+
+  
+    .block2_card1{
+      margin-top: 50px;
+    }
+  
+
+  
+
+  
+    .block3_cards{
+      margin-top: 50px;
+    }
+  
+    .block3_card1{
+      height: 350px;
+    }
+  
+
+  
+    .block3_card2{
+      height: 280px;
+    }
+
+  
+    .block3_card3{
+      height: 330px;
+    }
+
+  
+    .block3_card4{
+      height: 330px;
+      border-radius: 50px;
+    }
+
+  
+    .block3_card5{
+      height:330px;
+    }
+
+  
+
+  
+    .block5{
+      margin-top: 50px;
+    }
+  
+
+  
+    .block6_cards{
+      margin-top: 50px;
+      
+    }
+  
+    .block6_card1{
+      width: 80%;
+      margin-left: 10%;
+      height: 250px;
+    }
+  
+    .block6_card_num1{
+      margin-left: 32%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+  
+    .block6_card2{
+      width: 80%;
+      margin-left: 10%;
+      height: 250px;
+    }
+  
+    .block6_card_num2{
+      margin-left: 30%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+
+  
+    .block6_card3{
+      width: 80%;
+      margin-left: 10%;
+      height: 250px;
+    }
+  
+    .block6_card_num3{
+      margin-left: 36%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+
+  
+    .block6_card4{
+      width: 80%;
+      margin-left: 10%;
+      height: 250px;
+    }
+  
+    .block6_card_num4{
+      margin-left: 33%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card5{
+      width: 80%;
+      margin-left: 10%;
+      height: 270px;
+      border: 2px solid rgb(38, 20, 94);
+      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+      border-radius: 50px;
+    }
+  
+    .block6_card_num5{
+      margin-left: 37%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+
+
+    .container{
+      margin-top: 220px;
+      height: 11400px;
+    }
+
+    .content{
+      height: 11700px;
+    }
+
 
     .d1 {
       width: 0; 
@@ -5734,13 +6333,18 @@ transform: translateY(0);
 
   @media (max-width:450px){
 
+    .contract{
+      width: 80%;
+      margin-left: 10%;
+    }
+
     .container{
       margin-top: 220px;
-      height: 14400px;
+      height: 11750px;
     }
 
     .content{
-      height: 14800px;
+      height: 12100px;
     }
 
     .products_line_tittle{
@@ -5764,39 +6368,47 @@ transform: translateY(0);
     }
 
     .text1{
-      margin-top: 530px;
+      margin-top: 420px;
       margin-left: 3%;
       margin-right: 3%;
       font: Inter;
       font-weight: 400;
-      font-size: 25px;
+      font-size: 18px;
       letter-spacing: 0px;
     }
     .d1 {
       width: 0; 
       height: 0;
-      border-top: 10px solid transparent;
-      border-right: 10px solid #ffffff;
-      border-bottom: 10px solid transparent;
+      border-top: 8px solid transparent;
+      border-right: 8px solid #ffffff;
+      border-bottom: 8px solid transparent;
       position: absolute;
-      margin-top: 35px;
+      margin-top: 45px;
       margin-left: 8px;
       }
   
       .d2 {
         width: 0; 
         height: 0;
-        border-top: 10px solid transparent;
-        border-left: 10px solid #ffffff;
-        border-bottom: 10px solid transparent;
+        border-top: 8px solid transparent;
+        border-left: 8px solid #ffffff;
+        border-bottom: 8px solid transparent;
         position: absolute;
-        margin-top: 35px;
+        margin-top: 45px;
         margin-left: 10px;
         }
 
   .karusel{
     margin-top: 70px;
   }
+  }
+
+  @media (max-width:400px){
+
+    .tittle{
+      height: 130px;
+    }
+
   }
 
 
