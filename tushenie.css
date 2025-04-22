@@ -4203,7 +4203,7 @@
                 .text3{
                     margin-left: 5%;
                     margin-right: 5%;
-                    margin-top: 100px;
+                    margin-top: 70px;
                     font: Inter;
                     font-weight: 400;
                     font-size: 18px;
@@ -4275,4 +4275,63 @@
             letter-spacing: 0px;
             position: absolute;
           }
+          }
+
+
+
+          @media (max-width:400px){
+
+            .hr4{
+                width: 100%;
+                height: 3.5px;
+            margin-top: 200px;
+            }
+
+            .img1{
+                width: 57%;
+                border-radius: 0px 30px 30px 0px;
+                height: 130px;
+            }
+            
+            .img2{
+                width: 40%;
+                margin-left: 1%;
+                border-radius: 30px 0 0 30px;
+                height: 130px;
+            }
+            
+            .img3{
+                width: 62%;
+                margin-left: 0%;
+                border-radius: 0px 30px 30px 0px;
+                height: 130px;
+            
+            }
+            
+            .img4{
+                width: 35%;
+                margin-top: 15px;
+                border-radius: 30px 0px 0px 30px;
+                height: 130px;
+                margin-left: 1%;
+            
+            }
+            
+            .img5{
+                width: 50%;
+                margin-top: 15px;
+                margin-left: 0%;
+                border-radius: 0px 30px 30px 0px;
+                height: 130px;
+            
+            }
+            
+            .img6{
+                width: 47%;
+                margin-top: 15px;
+                margin-left: 1%;
+                border-radius: 30px 0px 0px 30px;
+                height: 130px;
+                margin-left: 1%;
+            }
           }
