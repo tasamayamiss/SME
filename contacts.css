@@ -2556,11 +2556,11 @@ footer{
     }
     
     .btn{
-        width: 44%;
+        width: 60%;
         height: 50px;
         background-color: rgb(38, 20, 94);
         margin-top: 10px;
-        margin-left: 28%;
+        margin-left: 20%;
         color: #ffffff;
         font: Inter;
         font-weight: 600;
@@ -2568,6 +2568,7 @@ footer{
         letter-spacing: 0px;
         border-radius: 15px;
         box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+        text-align: center;
     }
     
     span{
