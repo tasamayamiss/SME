@@ -77,6 +77,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .wrap{
@@ -173,6 +174,7 @@ body {
   padding-top: 25px;
   background-color: #ffffff;
   height: 180px;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .menuItem1{
@@ -302,49 +304,16 @@ a:active {
 
 #ru_eng{
   display: block;
-  height: 68px;
+  height: 50px;
   margin-left: 83%;
   margin-top: -70px;
   position: absolute;
 }
 
-.hr1{
-  margin-top: 3px;
-  margin-bottom: 3px;
-  width: 65px;
-  height: 2.5px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-}
-
-.hr2{
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 100%;
-  height: 2px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-
-}
-
-.RU{
-  width: 30px;
-  height: 20px;
-  font: Inter;
-  font-weight: 600;
-  font-size: 25px;
-  letter-spacing: 0px;
-  margin: 0;
-}
-
 .ENG{
-  width: 30px;
-  height: 20px;
   font: Inter;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 0px;
   margin: 0;
 }
@@ -659,49 +628,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
+    height: 50px;
     margin-left: 83%;
-    margin-top: -70px;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 31px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -1190,41 +1126,11 @@ footer{
     display: block;
     height: 68px;
     margin-left: 83%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
     width: 30px;
     height: 20px;
@@ -1548,40 +1454,10 @@ footer{
     display: block;
     height: 68px;
     margin-left: 83%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
 
   .ENG{
     width: 30px;
@@ -1900,40 +1776,10 @@ footer{
     display: block;
     height: 68px;
     margin-left: 83%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
 
   .ENG{
     width: 30px;
@@ -2250,40 +2096,10 @@ footer{
     display: block;
     height: 68px;
     margin-left: 80%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
 
   .ENG{
     width: 30px;
@@ -2611,40 +2427,10 @@ footer{
     display: block;
     height: 68px;
     margin-left: 75%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
 
   .ENG{
     width: 30px;
@@ -2830,6 +2616,30 @@ footer{
     letter-spacing: 0px;
   
   }
+
+  .ur_adress{
+    width: 50%;
+    left: 7%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
+  
+  .email_adress{
+    width: 30%;
+    left: 65%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
 }
 
 @media (max-width:550px){
@@ -2854,7 +2664,7 @@ footer{
     display: block;
     height: 68px;
     margin-left: 68%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
@@ -2879,6 +2689,30 @@ footer{
     font-size: 35px;
     letter-spacing: 0px;
   
+  }
+
+  .ur_adress{
+    width: 50%;
+    left: 7%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
+  
+  .email_adress{
+    width: 30%;
+    left: 65%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0px;
+    position: absolute;
   }
 }
 
@@ -2999,7 +2833,7 @@ footer{
     display: block;
     height: 68px;
     margin-left: 62%;
-    margin-top: -70px;
+    margin-top: -50px;
     position: absolute;
   }
 
@@ -3024,5 +2858,29 @@ footer{
     font-size: 33px;
     letter-spacing: 0px;
   
+  }
+
+  .ur_adress{
+    width: 50%;
+    left: 7%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
+  
+  .email_adress{
+    width: 30%;
+    left: 65%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0px;
+    position: absolute;
   }
 }
