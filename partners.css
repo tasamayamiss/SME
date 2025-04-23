@@ -2,7 +2,7 @@
 
 #preloader {
     width: 100%;
-    height: 1000px;
+    height: 700px;
     position: fixed;
     top: 0;
     left: 0;
@@ -43,7 +43,6 @@ html {
 }
 
 body {
-  background-color: chartreuse;
   display: flex;
   font-family: "Roboto", sans-serif;
   /* font-size: 16px; */
@@ -55,7 +54,6 @@ body {
 /* 1240-1600 */
 
 .content{
-  background-color: gainsboro;
   width: 100%;
   height: 2600px;
   margin: 0;
@@ -67,13 +65,13 @@ body {
 
 
 #nav{
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 55;
   width: 100%;
   height: 75px;
-  background-color: aqua;
   margin-top: 0;
   padding-top: 0px;
   padding-left: 5px;
@@ -81,6 +79,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .wrap{
@@ -89,7 +88,6 @@ body {
   position: absolute;
   top: 0;
   margin-left: 17%;
-  background-color: blueviolet;
 }
 
 .logo_img{
@@ -99,16 +97,6 @@ body {
   height: 65px;
 }
 
-/* .hamburger {
-  
-  width: 80px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 1190px;
-  z-index: 100;
-  padding: 0px;
-  cursor: pointer;
-} */
 
 .closeIcon {
   display: none;
@@ -178,10 +166,10 @@ body {
   padding-top: 25px;
   background-color: #ffffff;
   height: 180px;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .menuItem1{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -196,7 +184,6 @@ body {
 }
 
 .menuItem2{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -211,7 +198,6 @@ body {
 }
 
 .menuItem3{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -226,7 +212,6 @@ body {
 }
 
 .menuItem4{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -241,7 +226,6 @@ body {
 }
 
 .menuItem5{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -289,7 +273,6 @@ a:active {
 
 
 .menu_links{
-  background-color:cadetblue;
   margin-left: 25%;
   width: 50%;
   flex-wrap: wrap;
@@ -300,7 +283,6 @@ a:active {
 .menu_nav {
   width: 66%;
   margin-left: 17%;
-  background-color: antiquewhite;
   position: relative;
 }
 
@@ -314,50 +296,16 @@ a:active {
 
 #ru_eng{
   display: block;
-  height: 68px;
+  height: 50px;
   margin-left: 83%;
   margin-top: -70px;
-  background-color: bisque;
   position: absolute;
 }
 
-.hr1{
-  margin-top: 3px;
-  margin-bottom: 3px;
-  width: 65px;
-  height: 2.5px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-}
-
-.hr2{
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 100%;
-  height: 2px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-
-}
-
-.RU{
-  width: 30px;
-  height: 20px;
-  font: Inter;
-  font-weight: 600;
-  font-size: 25px;
-  letter-spacing: 0px;
-  margin: 0;
-}
-
 .ENG{
-  width: 30px;
-  height: 20px;
   font: Inter;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 0px;
   margin: 0;
 }
@@ -383,7 +331,6 @@ a:active {
 
 .container{
   /* 1305 */
-  background-color: aquamarine;
   width: 68%; 
   margin-top: 155px;
   margin-left: 16%;
@@ -435,7 +382,7 @@ a:active {
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
+    background: #e6e4e4;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -982,7 +929,6 @@ footer{
 
 @media (max-width:3000px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 2600px;
     margin: 0;
@@ -998,7 +944,6 @@ footer{
     z-index: 55;
     width: 100%;
     height: 75px;
-    background-color: aqua;
     margin-top: 0;
     padding-top: 0px;
     padding-left: 5px;
@@ -1015,7 +960,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 17%;
-    background-color: blueviolet;
   }
 
 
@@ -1026,16 +970,6 @@ footer{
     height: 65px;
   }
   
-  /* .hamburger {
-    
-    width: 80px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 1190px;
-    z-index: 100;
-    padding: 0px;
-    cursor: pointer;
-  } */
   
   .closeIcon {
     display: none;
@@ -1113,7 +1047,6 @@ footer{
 
   .menuItem1{
     width: 60px;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -1129,7 +1062,6 @@ footer{
 
   .menuItem2{
     width: 200px;
-    background-color: blueviolet;
     margin-left: 4%;
     font: Inter;
     font-weight: 600;
@@ -1145,7 +1077,6 @@ footer{
 
   .menuItem3{
     width: 200px;
-    background-color: blueviolet;
     margin-left: 4%;
     font: Inter;
     font-weight: 600;
@@ -1161,7 +1092,6 @@ footer{
 
   .menuItem4{
     width: 320px;
-    background-color: blueviolet;
     margin-left: 4%;
     font: Inter;
     font-weight: 600;
@@ -1177,7 +1107,6 @@ footer{
 
   .menuItem5{
     width: 110px;
-    background-color: blueviolet;
     margin-left: 4%;
     font: Inter;
     font-weight: 600;
@@ -1222,7 +1151,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 20%;
     width: 60%;
     flex-wrap: wrap;
@@ -1233,7 +1161,6 @@ footer{
   .menu_nav {
     width: 66%;
     margin-left: 17%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -1244,50 +1171,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
+    height: 50px;
     margin-left: 83%;
-    margin-top: -70px;
-    background-color: bisque;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -1313,7 +1206,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 60%; 
     margin-top: 155px;
     margin-left: 20%;
@@ -1860,7 +1752,6 @@ footer{
 
   .menuItem1{
     width: 60px;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -1876,7 +1767,6 @@ footer{
   
   .menuItem2{
     width: 180px;
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -1892,7 +1782,6 @@ footer{
   
   .menuItem3{
     width: 170px;
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -1908,7 +1797,6 @@ footer{
   
   .menuItem4{
     width: 290px;
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -1924,7 +1812,6 @@ footer{
   
   .menuItem5{
     width: 110px;
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -1946,7 +1833,6 @@ footer{
 
 @media (max-width:1500px){
     .content{
-      background-color: gainsboro;
       width: 100%;
       height: 2600px;
       margin: 0;
@@ -1962,7 +1848,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 17%;
-      background-color: blueviolet;
     }
 
 
@@ -2005,7 +1890,6 @@ footer{
 
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       font: Inter;
       font-weight: 600;
       font-size: 20px;
@@ -2020,7 +1904,6 @@ footer{
 
     .menuItem2{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2036,7 +1919,6 @@ footer{
 
     .menuItem3{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2052,7 +1934,6 @@ footer{
 
     .menuItem4{
       width: 150px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2068,7 +1949,6 @@ footer{
 
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2083,7 +1963,6 @@ footer{
     }
 
     .menu_links{
-      background-color:cadetblue;
       margin-left: 25%;
       width: 50%;
       flex-wrap: wrap;
@@ -2094,7 +1973,6 @@ footer{
     .menu_nav {
       width: 66%;
       margin-left: 17%;
-      background-color: antiquewhite;
       position: relative;
     }
 
@@ -2104,50 +1982,16 @@ footer{
 
     #ru_eng{
       display: block;
-      height: 68px;
-      margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      height: 50px;
+      margin-left: 80%;
+      margin-top: -55px;
       position: absolute;
     }
-
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-
-    }
-
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
-      font-size: 25px;
+      font-size: 35px;
       letter-spacing: 0px;
       margin: 0;
     }
@@ -2173,7 +2017,6 @@ footer{
 
     .container{
       /* 1305 */
-      background-color: aquamarine;
       width: 68%; 
       margin-top: 155px;
       margin-left: 16%;
@@ -2659,7 +2502,6 @@ footer{
 
 @media (max-width:1250px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 2600px;
     margin: 0;
@@ -2675,7 +2517,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 14%;
-    background-color: blueviolet;
   }
 
 
@@ -2718,7 +2559,6 @@ footer{
 
   .menuItem1{
     width: 60px;
-    background-color: blueviolet;
     font: Inter;
     font-weight: 600;
     font-size: 20px;
@@ -2733,7 +2573,6 @@ footer{
 
   .menuItem2{
     width: 100px;
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -2749,7 +2588,6 @@ footer{
 
   .menuItem3{
     width: 100px;
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -2765,7 +2603,6 @@ footer{
 
   .menuItem4{
     width: 150px;
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -2781,7 +2618,6 @@ footer{
 
   .menuItem5{
     width: 110px;
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -2800,7 +2636,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 20%;
     width: 60%;
     flex-wrap: wrap;
@@ -2811,7 +2646,6 @@ footer{
   .menu_nav {
     width: 72%;
     margin-left: 14%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -2822,50 +2656,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
-    margin-left: 83%;
-    margin-top: -70px;
-    background-color: bisque;
+    height: 50px;
+    margin-left: 80%;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -2891,7 +2691,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 72%; 
     margin-top: 155px;
     margin-left: 14%;
@@ -3372,7 +3171,6 @@ footer{
 
 @media (max-width:1094px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 2600px;
     margin: 0;
@@ -3388,7 +3186,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 10%;
-    background-color: blueviolet;
   }
 
 
@@ -3430,7 +3227,6 @@ footer{
   }
 
   .menuItem1{
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -3445,7 +3241,6 @@ footer{
   }
 
   .menuItem2{
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -3460,7 +3255,6 @@ footer{
   }
 
   .menuItem3{
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -3475,7 +3269,6 @@ footer{
   }
 
   .menuItem4{
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -3490,7 +3283,6 @@ footer{
   }
 
   .menuItem5{
-    background-color: blueviolet;
     margin-left: 3.5%;
     font: Inter;
     font-weight: 600;
@@ -3508,7 +3300,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 17%;
     width: 66%;
     flex-wrap: wrap;
@@ -3519,7 +3310,6 @@ footer{
   .menu_nav {
     width: 80%;
     margin-left: 10%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -3529,50 +3319,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
-    margin-left: 83%;
-    margin-top: -70px;
-    background-color: bisque;
+    height: 50px;
+    margin-left: 80%;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -3598,7 +3354,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 80%; 
     margin-top: 155px;
     margin-left: 10%;
@@ -4052,7 +3807,6 @@ footer{
   font-size: 17px;
   letter-spacing: 0px;
   position: absolute;
-  background-color: aqua;
 }
 
 .email_adress{
@@ -4065,14 +3819,12 @@ footer{
   font-size: 17px;
   letter-spacing: 0px;
   position: absolute;
-  background-color: aquamarine;
 }
 }
 
 
 @media (max-width:950px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 2600px;
     margin: 0;
@@ -4087,7 +3839,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 7%;
-    background-color: blueviolet;
   }
 
 
@@ -4130,7 +3881,6 @@ footer{
   }
 
   .menuItem1{
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4145,7 +3895,6 @@ footer{
   }
 
   .menuItem2{
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -4160,7 +3909,6 @@ footer{
   }
 
   .menuItem3{
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -4175,7 +3923,6 @@ footer{
   }
 
   .menuItem4{
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -4190,7 +3937,6 @@ footer{
   }
 
   .menuItem5{
-    background-color: blueviolet;
     margin-left: 2%;
     font: Inter;
     font-weight: 600;
@@ -4208,7 +3954,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 11%;
     width: 78%;
     flex-wrap: wrap;
@@ -4219,7 +3964,6 @@ footer{
   .menu_nav {
     width: 86%;
     margin-left: 7%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -4230,50 +3974,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
-    margin-left: 80%;
-    margin-top: -70px;
-    background-color: bisque;
+    height: 50px;
+    margin-left: 78%;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -4299,7 +4009,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 86%; 
     margin-top: 155px;
     margin-left: 7%;
@@ -4778,7 +4487,6 @@ footer{
 
 @media (max-width:750px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 2530px;
     margin: 0;
@@ -4794,7 +4502,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 4%;
-    background-color: blueviolet;
   }
 
 
@@ -4839,7 +4546,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4857,7 +4563,6 @@ footer{
     width: 100%;
     margin-top: 20px;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4875,7 +4580,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4893,7 +4597,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4911,7 +4614,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -4926,7 +4628,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 14%;
     width: 72%;
     flex-wrap: wrap;
@@ -4937,7 +4638,6 @@ footer{
   .menu_nav {
     width: 92%;
     margin-left: 4%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -4948,50 +4648,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
+    height: 50px;
     margin-left: 75%;
-    margin-top: -70px;
-    background-color: bisque;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 33px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -5017,7 +4683,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 92%; 
     margin-top: 155px;
     margin-left: 4%;
@@ -5498,7 +5163,6 @@ footer{
 
 @media (max-width:600px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 4600px;
     margin: 0;
@@ -5514,7 +5178,6 @@ footer{
     position: absolute;
     top: 0;
     margin-left: 4%;
-    background-color: blueviolet;
   }
 
   .burger1 {
@@ -5558,7 +5221,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -5576,7 +5238,6 @@ footer{
     width: 100%;
     margin-top: 20px;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -5594,7 +5255,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -5612,7 +5272,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -5630,7 +5289,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -5647,7 +5305,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 14%;
     width: 72%;
     flex-wrap: wrap;
@@ -5658,7 +5315,6 @@ footer{
   .menu_nav {
     width: 92%;
     margin-left: 4%;
-    background-color: antiquewhite;
     position: relative;
   }
 
@@ -5668,50 +5324,16 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
-    margin-left: 68%;
-    margin-top: -70px;
-    background-color: bisque;
+    height: 50px;
+    margin-left: 65%;
+    margin-top: -55px;
     position: absolute;
   }
-
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-
-  }
-
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-
+  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 32px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -5737,7 +5359,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 92%; 
     margin-top: 155px;
     margin-left: 4%;
@@ -6220,7 +5841,7 @@ footer{
   color: #ffffff;
   font: Inter;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 13px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -6232,7 +5853,7 @@ footer{
   color: #ffffff;
   font: Inter;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 13px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -6241,7 +5862,6 @@ footer{
 
 @media (max-width:450px){
   .content{
-    background-color: gainsboro;
     width: 100%;
     height: 4500px;
     margin: 0;
@@ -6261,20 +5881,25 @@ footer{
 
   #ru_eng{
     display: block;
-    height: 68px;
-    margin-left: 62%;
-    margin-top: -70px;
-    background-color: bisque;
+    height: 50px;
+    margin-left: 60%;
+    margin-top: -50px;
     position: absolute;
   }
-
+  
+  .ENG{
+    font: Inter;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin: 0;
+  }
 
 
   .menuItem1{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -6292,7 +5917,6 @@ footer{
     width: 100%;
     margin-top: 20px;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -6310,7 +5934,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -6328,7 +5951,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -6346,7 +5968,6 @@ footer{
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    background-color: blueviolet;
     margin-left: 0;
     font: Inter;
     font-weight: 600;
@@ -6400,7 +6021,6 @@ footer{
 
   .container{
     /* 1305 */
-    background-color: aquamarine;
     width: 92%; 
     margin-top: 125px;
     margin-left: 4%;
@@ -6869,7 +6489,7 @@ footer{
   color: #ffffff;
   font: Inter;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -6881,11 +6501,14 @@ footer{
   color: #ffffff;
   font: Inter;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0px;
   position: absolute;
 }
 }
+
+
+
 
 
 
