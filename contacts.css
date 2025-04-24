@@ -43,7 +43,6 @@
   }
   
   body {
-  background-color: chartreuse;
   display: flex;
   font-family: "Roboto", sans-serif;
   /* font-size: 16px; */
@@ -56,7 +55,6 @@
   /* 1240-1600 */
   
   .content{
-  background-color: gainsboro;
   width: 100%;
   height: 1200px;
   margin: 0;
@@ -74,7 +72,7 @@
   z-index: 55;
   width: 100%;
   height: 75px;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   margin-top: 0;
   padding-top: 0px;
   padding-left: 5px;
@@ -82,6 +80,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
   }
   
   .wrap{
@@ -90,7 +89,6 @@
   position: absolute;
   top: 0;
   margin-left: 17%;
-  background-color: blueviolet;
   }
   
   .logo_img{
@@ -100,16 +98,7 @@
   height: 65px;
   }
   
-  /* .hamburger {
-  
-  width: 80px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 1190px;
-  z-index: 100;
-  padding: 0px;
-  cursor: pointer;
-  } */
+
   
   .closeIcon {
   display: none;
@@ -179,10 +168,10 @@
   padding-top: 25px;
   background-color: #ffffff;
   height: 180px;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
   }
   
   .menuItem1{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -197,7 +186,6 @@
   }
   
   .menuItem2{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -212,7 +200,6 @@
   }
   
   .menuItem3{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -227,7 +214,6 @@
   }
   
   .menuItem4{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -242,7 +228,6 @@
   }
   
   .menuItem5{
-  background-color: blueviolet;
   margin-left: 4%;
   font: Inter;
   font-weight: 600;
@@ -290,7 +275,6 @@
   
   
   .menu_links{
-    background-color:cadetblue;
     margin-left: 25%;
     width: 50%;
     flex-wrap: wrap;
@@ -301,13 +285,9 @@
   .menu_nav {
     width: 66%;
     margin-left: 17%;
-    background-color: antiquewhite;
     position: relative;
   }
-  
-  /* .menuItem{
-  display: inline-block;
-  } */
+
   
   .showMenu {
   transform: translateY(0);
@@ -315,50 +295,16 @@
   
   #ru_eng{
     display: block;
-    height: 68px;
+    height: 50px;
     margin-left: 83%;
-    margin-top: -70px;
-    background-color: bisque;
+    margin-top: -55px;
     position: absolute;
   }
   
-  .hr1{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 65px;
-    height: 2.5px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  }
-  
-  .hr2{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 2px;
-    color: #000;
-    border-color: #000;
-    background-color: #000;
-  
-  }
-  
-  .RU{
-    width: 30px;
-    height: 20px;
-    font: Inter;
-    font-weight: 600;
-    font-size: 25px;
-    letter-spacing: 0px;
-    margin: 0;
-  }
-  
   .ENG{
-    width: 30px;
-    height: 20px;
     font: Inter;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -418,7 +364,6 @@
 .form_content{
     margin-top: 0px;
     width: 100%;
-    background-color: aqua;
     padding-bottom: 30px;
 
 }
@@ -535,7 +480,6 @@ footer{
         z-index: 55;
         width: 100%;
         height: 75px;
-        background-color: aqua;
         margin-top: 0;
         padding-top: 0px;
         padding-left: 5px;
@@ -552,7 +496,6 @@ footer{
         position: absolute;
         top: 0;
         margin-left: 17%;
-        background-color: blueviolet;
       }
     
     
@@ -639,7 +582,6 @@ footer{
     
       .menuItem1{
         width: 60px;
-        background-color: blueviolet;
         margin-left: 0;
         font: Inter;
         font-weight: 600;
@@ -655,7 +597,6 @@ footer{
     
       .menuItem2{
         width: 200px;
-        background-color: blueviolet;
         margin-left: 4%;
         font: Inter;
         font-weight: 600;
@@ -671,7 +612,6 @@ footer{
     
       .menuItem3{
         width: 200px;
-        background-color: blueviolet;
         margin-left: 4%;
         font: Inter;
         font-weight: 600;
@@ -687,7 +627,6 @@ footer{
     
       .menuItem4{
         width: 320px;
-        background-color: blueviolet;
         margin-left: 4%;
         font: Inter;
         font-weight: 600;
@@ -703,7 +642,6 @@ footer{
     
       .menuItem5{
         width: 110px;
-        background-color: blueviolet;
         margin-left: 4%;
         font: Inter;
         font-weight: 600;
@@ -748,7 +686,6 @@ footer{
     
     
       .menu_links{
-        background-color:cadetblue;
         margin-left: 20%;
         width: 60%;
         flex-wrap: wrap;
@@ -759,7 +696,6 @@ footer{
       .menu_nav {
         width: 66%;
         margin-left: 17%;
-        background-color: antiquewhite;
         position: relative;
       }
     
@@ -770,50 +706,16 @@ footer{
     
       #ru_eng{
         display: block;
-        height: 68px;
+        height: 50px;
         margin-left: 83%;
-        margin-top: -70px;
-        background-color: bisque;
+        margin-top: -55px;
         position: absolute;
       }
-    
-      .hr1{
-        margin-top: 3px;
-        margin-bottom: 3px;
-        width: 65px;
-        height: 2.5px;
-        color: #000;
-        border-color: #000;
-        background-color: #000;
-      }
-    
-      .hr2{
-        margin-top: 0px;
-        margin-left: 0px;
-        width: 100%;
-        height: 2px;
-        color: #000;
-        border-color: #000;
-        background-color: #000;
-    
-      }
-    
-      .RU{
-        width: 30px;
-        height: 20px;
-        font: Inter;
-        font-weight: 600;
-        font-size: 25px;
-        letter-spacing: 0px;
-        margin: 0;
-      }
-    
+      
       .ENG{
-        width: 30px;
-        height: 20px;
         font: Inter;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 30px;
         letter-spacing: 0px;
         margin: 0;
       }
@@ -896,7 +798,6 @@ footer{
 
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -912,7 +813,6 @@ footer{
     
     .menuItem2{
       width: 180px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -928,7 +828,6 @@ footer{
     
     .menuItem3{
       width: 170px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -944,7 +843,6 @@ footer{
     
     .menuItem4{
       width: 290px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -960,7 +858,6 @@ footer{
     
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -989,7 +886,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 17%;
-      background-color: blueviolet;
     }
 
 
@@ -1032,7 +928,6 @@ footer{
 
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       font: Inter;
       font-weight: 600;
       font-size: 20px;
@@ -1047,7 +942,6 @@ footer{
 
     .menuItem2{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1063,7 +957,6 @@ footer{
 
     .menuItem3{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1079,7 +972,6 @@ footer{
 
     .menuItem4{
       width: 150px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1095,7 +987,6 @@ footer{
 
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1110,7 +1001,6 @@ footer{
     }
 
     .menu_links{
-      background-color:cadetblue;
       margin-left: 25%;
       width: 50%;
       flex-wrap: wrap;
@@ -1121,7 +1011,6 @@ footer{
     .menu_nav {
       width: 66%;
       margin-left: 17%;
-      background-color: antiquewhite;
       position: relative;
     }
 
@@ -1131,47 +1020,13 @@ footer{
 
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-
-    }
-
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -1258,7 +1113,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 14%;
-      background-color: blueviolet;
     }
   
   
@@ -1301,7 +1155,6 @@ footer{
   
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       font: Inter;
       font-weight: 600;
       font-size: 20px;
@@ -1316,7 +1169,6 @@ footer{
   
     .menuItem2{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1332,7 +1184,6 @@ footer{
   
     .menuItem3{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1348,7 +1199,6 @@ footer{
   
     .menuItem4{
       width: 150px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1364,7 +1214,6 @@ footer{
   
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1383,7 +1232,6 @@ footer{
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 20%;
       width: 60%;
       flex-wrap: wrap;
@@ -1394,7 +1242,6 @@ footer{
     .menu_nav {
       width: 72%;
       margin-left: 14%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -1405,47 +1252,13 @@ footer{
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -1498,7 +1311,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 10%;
-      background-color: blueviolet;
     }
   
   
@@ -1540,7 +1352,6 @@ footer{
     }
   
     .menuItem1{
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -1555,7 +1366,6 @@ footer{
     }
   
     .menuItem2{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1570,7 +1380,6 @@ footer{
     }
   
     .menuItem3{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1585,7 +1394,6 @@ footer{
     }
   
     .menuItem4{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1600,7 +1408,6 @@ footer{
     }
   
     .menuItem5{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -1618,7 +1425,6 @@ footer{
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 17%;
       width: 66%;
       flex-wrap: wrap;
@@ -1629,7 +1435,6 @@ footer{
     .menu_nav {
       width: 80%;
       margin-left: 10%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -1639,47 +1444,13 @@ footer{
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -1709,7 +1480,6 @@ footer{
     font-size: 17px;
     letter-spacing: 0px;
     position: absolute;
-    background-color: aqua;
   }
   
   .email_adress{
@@ -1722,7 +1492,6 @@ footer{
     font-size: 17px;
     letter-spacing: 0px;
     position: absolute;
-    background-color: aquamarine;
   }
   }
 
@@ -1735,7 +1504,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 7%;
-      background-color: blueviolet;
     }
   
   
@@ -1778,7 +1546,6 @@ footer{
     }
   
     .menuItem1{
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -1793,7 +1560,6 @@ footer{
     }
   
     .menuItem2{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1808,7 +1574,6 @@ footer{
     }
   
     .menuItem3{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1823,7 +1588,6 @@ footer{
     }
   
     .menuItem4{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1838,7 +1602,6 @@ footer{
     }
   
     .menuItem5{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1856,7 +1619,6 @@ footer{
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 11%;
       width: 78%;
       flex-wrap: wrap;
@@ -1867,7 +1629,6 @@ footer{
     .menu_nav {
       width: 86%;
       margin-left: 7%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -1878,54 +1639,19 @@ footer{
   
     #ru_eng{
       display: block;
-      height: 68px;
-      margin-left: 80%;
-      margin-top: -70px;
-      background-color: bisque;
+      height: 50px;
+      margin-left: 83%;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
       letter-spacing: 0px;
       margin: 0;
     }
-
 
     .forma{
         width: 54%;
@@ -1989,6 +1715,22 @@ footer{
         font-size: 30px;
         letter-spacing: 0px;
     }
+
+    #ru_eng{
+      display: block;
+      height: 50px;
+      margin-left: 80%;
+      margin-top: -50px;
+      position: absolute;
+    }
+    
+    .ENG{
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+      margin: 0;
+    }
   }
 
 
@@ -2001,7 +1743,6 @@ footer{
       position: absolute;
       top: 0;
       margin-left: 4%;
-      background-color: blueviolet;
     }
   
   
@@ -2046,7 +1787,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2064,7 +1804,6 @@ footer{
       width: 100%;
       margin-top: 20px;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2082,7 +1821,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2100,7 +1838,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2118,7 +1855,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2133,7 +1869,6 @@ footer{
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 14%;
       width: 72%;
       flex-wrap: wrap;
@@ -2144,7 +1879,6 @@ footer{
     .menu_nav {
       width: 92%;
       margin-left: 4%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -2155,53 +1889,20 @@ footer{
   
     #ru_eng{
       display: block;
-      height: 68px;
-      margin-left: 75%;
-      margin-top: -70px;
-      background-color: bisque;
+      height: 50px;
+      margin-left: 77%;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
       letter-spacing: 0px;
       margin: 0;
     }
+  
 
 
     .forma{
@@ -2233,7 +1934,7 @@ footer{
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -2245,7 +1946,7 @@ footer{
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -2266,11 +1967,18 @@ footer{
   
     #ru_eng{
       display: block;
-      height: 68px;
-      margin-left: 62%;
-      margin-top: -70px;
-      background-color: bisque;
+      height: 50px;
+      margin-left: 67%;
+      margin-top: -50px;
       position: absolute;
+    }
+    
+    .ENG{
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+      margin: 0;
     }
   
   
@@ -2279,7 +1987,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2297,7 +2004,6 @@ footer{
       width: 100%;
       margin-top: 20px;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2315,7 +2021,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2333,7 +2038,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2351,7 +2055,6 @@ footer{
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -2366,7 +2069,6 @@ footer{
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 14%;
       width: 72%;
       flex-wrap: wrap;
@@ -2400,7 +2102,6 @@ footer{
     .form_content{
         margin-top: 0px;
         width: 100%;
-        background-color: aqua;
         padding-bottom: 30px;
     
     }
@@ -2485,7 +2186,7 @@ footer{
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -2497,7 +2198,7 @@ footer{
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -2536,7 +2237,6 @@ footer{
     .form_content{
         margin-top: 0px;
         width: 100%;
-        background-color: aqua;
         padding-bottom: 30px;
     
     }
@@ -2578,5 +2278,46 @@ footer{
         font-size: 18px;
         letter-spacing: 0px;
         color:  rgb(38, 20, 94);
+    }
+
+
+    #ru_eng{
+      display: block;
+      height: 50px;
+      margin-left: 64%;
+      margin-top: -50px;
+      position: absolute;
+    }
+    
+    .ENG{
+      font: Inter;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0px;
+      margin: 0;
+    }
+
+    .ur_adress{
+      width: 50%;
+      left: 7%;
+      top: 30px;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0px;
+      position: absolute;
+    }
+    
+    .email_adress{
+      width: 30%;
+      left: 65%;
+      top: 30px;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 600;
+      font-size: 10px;
+      letter-spacing: 0px;
+      position: absolute;
     }
   }
