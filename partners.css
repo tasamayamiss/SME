@@ -382,7 +382,7 @@ a:active {
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #e6e4e4;
+    background: #f3f3f3;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -440,7 +440,7 @@ a:active {
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -500,7 +500,7 @@ a:active {
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -559,7 +559,7 @@ a:active {
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -618,7 +618,7 @@ a:active {
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -673,7 +673,7 @@ a:active {
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -727,7 +727,7 @@ a:active {
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -781,7 +781,7 @@ a:active {
   height: 640px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -840,7 +840,7 @@ a:active {
   height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
+  background: #f3f3f3;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1180,7 +1180,7 @@ footer{
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -1257,7 +1257,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -1301,7 +1300,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1356,7 +1354,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1410,7 +1407,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1464,7 +1460,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1513,7 +1508,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1562,7 +1556,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1611,7 +1604,6 @@ footer{
   height: 640px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1665,7 +1657,6 @@ footer{
   height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -1984,14 +1975,14 @@ footer{
       display: block;
       height: 50px;
       margin-left: 80%;
-      margin-top: -55px;
+      margin-top: -50px;
       position: absolute;
     }
     
     .ENG{
       font: Inter;
       font-weight: 600;
-      font-size: 35px;
+      font-size: 25px;
       letter-spacing: 0px;
       margin: 0;
     }
@@ -2068,7 +2059,6 @@ footer{
       height: 450px;
       border-radius: 30px;
       border: 2px solid #000000;
-      background: #FAFAFA;
       /* padding: 40px 90px 76px 40px; */
       position: relative;
       display: inline-block;
@@ -2113,7 +2103,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2160,7 +2149,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2205,7 +2193,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2251,7 +2238,6 @@ footer{
     height: 300px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2293,7 +2279,6 @@ footer{
     height: 300px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2336,7 +2321,6 @@ footer{
     height: 260px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2378,7 +2362,6 @@ footer{
     height: 640px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2424,7 +2407,6 @@ footer{
     height: 330px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2658,14 +2640,14 @@ footer{
     display: block;
     height: 50px;
     margin-left: 80%;
-    margin-top: -55px;
+    margin-top: -50px;
     position: absolute;
   }
   
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -2742,7 +2724,7 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
+    
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -2787,7 +2769,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -2834,7 +2815,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -2880,7 +2860,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -2927,7 +2906,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -2968,7 +2946,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3009,7 +2986,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3050,7 +3026,6 @@ footer{
   height: 640px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3095,7 +3070,6 @@ footer{
   height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3321,14 +3295,14 @@ footer{
     display: block;
     height: 50px;
     margin-left: 80%;
-    margin-top: -55px;
+    margin-top: -50px;
     position: absolute;
   }
   
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -3405,7 +3379,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -3448,7 +3421,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3495,7 +3467,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3540,7 +3511,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3584,7 +3554,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3625,7 +3594,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3664,7 +3632,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3705,7 +3672,6 @@ footer{
   height: 640px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3750,7 +3716,6 @@ footer{
   height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -3976,14 +3941,14 @@ footer{
     display: block;
     height: 50px;
     margin-left: 78%;
-    margin-top: -55px;
+    margin-top: -50px;
     position: absolute;
   }
   
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -4060,7 +4025,6 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -4105,7 +4069,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4151,7 +4114,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4197,7 +4159,6 @@ footer{
   height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4242,7 +4203,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4284,7 +4244,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4325,7 +4284,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4365,7 +4323,6 @@ footer{
   height: 640px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4411,7 +4368,6 @@ footer{
   height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4650,14 +4606,14 @@ footer{
     display: block;
     height: 50px;
     margin-left: 75%;
-    margin-top: -55px;
+    margin-top: -50px;
     position: absolute;
   }
   
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 33px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -4734,7 +4690,6 @@ footer{
     height: 380px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -4779,7 +4734,6 @@ footer{
   height: 380px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4825,7 +4779,6 @@ footer{
   height: 380px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4871,7 +4824,6 @@ footer{
   height: 380px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4917,7 +4869,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -4959,7 +4910,6 @@ footer{
   height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5000,7 +4950,6 @@ footer{
   height: 240px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5041,7 +4990,6 @@ footer{
   height: 590px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5087,7 +5035,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5326,14 +5273,14 @@ footer{
     display: block;
     height: 50px;
     margin-left: 65%;
-    margin-top: -55px;
+    margin-top: -50px;
     position: absolute;
   }
   
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -5411,7 +5358,6 @@ footer{
     height: 440px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -5458,7 +5404,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5508,7 +5453,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5556,7 +5500,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5604,7 +5547,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5649,7 +5591,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5692,7 +5633,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5736,7 +5676,6 @@ footer{
   height: 590px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5785,7 +5724,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -5890,7 +5828,7 @@ footer{
   .ENG{
     font: Inter;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 0px;
     margin: 0;
   }
@@ -5982,7 +5920,6 @@ footer{
 
 
   .menu_links{
-    background-color:cadetblue;
     margin-left: 14%;
     width: 72%;
     flex-wrap: wrap;
@@ -6073,7 +6010,6 @@ footer{
     height: 440px;
     border-radius: 30px;
     border: 2px solid #000000;
-    background: #FAFAFA;
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -6119,7 +6055,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6167,7 +6102,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6214,7 +6148,6 @@ footer{
   height: 440px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6261,7 +6194,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6303,7 +6235,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6345,7 +6276,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6387,7 +6317,6 @@ footer{
   height: 590px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
@@ -6433,7 +6362,6 @@ footer{
   height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background: #FAFAFA;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
