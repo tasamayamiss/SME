@@ -1,6 +1,6 @@
 #preloader {
   width: 100%;
-  height: 300px;
+  height: 700px;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,283 +14,273 @@
 }
 
 .preloader_img{
-  margin-top: 50px;
   width: 80%;
   animation: small-big-small 2s ease-in-out;
-  position: fixed;
 }
 
 @keyframes small-big-small {
-0% {
-  transform: scale(0.7, 0.7);
-}
-100% {
-  transform: scale(1, 1);
-}
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 html {
-box-sizing: border-box;
-height: 100%;
-padding: 0;
-margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 *,
 *::after,
 *::before {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-background-color: chartreuse;
-display: flex;
-font-family: "Roboto", sans-serif;
-/* font-size: 16px; */
-height: 100%;
-padding: 0;
-margin: 0;
-
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 16px; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 /* 1240-1600 */
 
 .content{
-background-color: gainsboro;
-width: 100%;
-height: 9800px;
-margin: 0;
-padding-top: 0px;
-box-sizing: border-box;
-display: block;
+  width: 100%;
+  height: 1700px;
+  margin: 0;
+  padding-top: 0px;
+  box-sizing: border-box;
+  display: block;
 }
 
 
 
 #nav{
-position: fixed;
-top: 0;
-left: 0;
-z-index: 55;
-width: 100%;
-height: 75px;
-background-color: aqua;
-margin-top: 0;
-padding-top: 0px;
-padding-left: 5px;
-padding-right: 5px;
-display: flex;
-flex-direction: row;
-align-items: center;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 55;
+  width: 100%;
+  height: 75px;
+  margin-top: 0;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .wrap{
-width: 66%;
-height: 75px;
-position: absolute;
-top: 0;
-margin-left: 17%;
-background-color: blueviolet;
+  width: 66%;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  margin-left: 17%;
 }
 
 .logo_img{
-margin-top: 5px;
-left: 0;
-width: 130px;
-height: 65px;
+  margin-top: 5px;
+  left: 0;
+  width: 130px;
+  height: 65px;
 }
 
 /* .hamburger {
-
-width: 80px;
-margin-top: 25px;
-margin-bottom: 25px;
-margin-left: 1190px;
-z-index: 100;
-padding: 0px;
-cursor: pointer;
+  
+  width: 80px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 1190px;
+  z-index: 100;
+  padding: 0px;
+  cursor: pointer;
 } */
 
 .closeIcon {
-display: none;
+  display: none;
 }
 
 .burger1 {
-position: absolute;
-margin-top: -60px;
-margin-left: 92%;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 92%;
 }
 
 .burger {
-position: absolute;
-cursor: pointer;
-display: block;
-position: relative;
-border: none;
-z-index: 100;
-background: transparent;
-width: 60px;
-height: 45px;
-
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  z-index: 100;
+  background: transparent;
+  width: 60px;
+  height: 45px;
+  
 }
 .burger::before,
 .burger::after {
-content: '';
-left: 0;
-position: absolute;
-display: block;
-width: 100%;
-height: 6px;
-background: #000;
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #000;
 }
 .burger::before {
-top: 0;
-box-shadow: 0 20px 0 #000;
-transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  top: 0;
+  box-shadow: 0 20px 0 #000;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
 }
 .burger::after {
-bottom: 0;
-transition: bottom .3s .15s, transform .3s;
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
 }
 .burger.active::before {
-top: 20px;
-transform: rotate(45deg);
-box-shadow: 0 6px 0 rgba(0,0,0,0);
-transition: box-shadow .15s, top .3s, transform .3s .15s;
+  top: 20px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
 }
 .burger.active::after {
-bottom: 20px;
-transform: rotate(-45deg);
-transition: bottom .3s, transform .3s .15s;
+  bottom: 20px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
 }
 
 .menu {
-width: 100%;
-position: fixed;
-transform: translateY(-100%);
-transition: transform 0.2s;
-top: -25px;
-left: 0;
-right: 0;
-bottom: 0;
-list-style: none;
-padding-top: 0;
-color: black;
-padding-top: 25px;
-background-color: #ffffff;
-height: 180px;
+  width: 100%;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: -25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style: none;
+  padding-top: 0;
+  color: black;
+  padding-top: 25px;
+  background-color: #ffffff;
+  height: 180px;
+  box-shadow: 0px 0.5px 15px 0px #000 ;
 }
 
 .menuItem1{
-background-color: blueviolet;
-margin-left: 4%;
-font: Inter;
-font-weight: 600;
-font-size: 20px;
-letter-spacing: 0px;
-display: inline-block;
-vertical-align: middle;
-color: black;
-word-wrap: break-word;
-text-align: center;
-margin-top: 0px;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .menuItem2{
-background-color: blueviolet;
-margin-left: 4%;
-font: Inter;
-font-weight: 600;
-font-size: 20px;
-letter-spacing: 0px;
-display: inline-block;
-vertical-align: middle;
-color: black;
-word-wrap: break-word;
-text-align: center;
-margin-top: 0px;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .menuItem3{
-background-color: blueviolet;
-margin-left: 4%;
-font: Inter;
-font-weight: 600;
-font-size: 20px;
-letter-spacing: 0px;
-display: inline-block;
-vertical-align: middle;
-color: black;
-word-wrap: break-word;
-text-align: center;
-margin-top: 0px;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .menuItem4{
-background-color: blueviolet;
-margin-left: 4%;
-font: Inter;
-font-weight: 600;
-font-size: 20px;
-letter-spacing: 0px;
-display: inline-block;
-vertical-align: middle;
-color: black;
-word-wrap: break-word;
-text-align: center;
-margin-top: 0px;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .menuItem5{
-background-color: blueviolet;
-margin-left: 4%;
-font: Inter;
-font-weight: 600;
-font-size: 20px;
-letter-spacing: 0px;
-display: inline-block;
-vertical-align: middle;
-color: black;
-word-wrap: break-word;
-margin-top: 0px;
-text-align: center;
+  margin-left: 4%;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  word-wrap: break-word;
+  margin-top: 0px;
+  text-align: center;
 }
 
 
 
 a{
-color: black;
+  color: black;
 }
 
 a:link {
-outline: none;
-text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:visited {
-outline: none;
-text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:focus {
-outline: none;
-text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:hover {
-outline: none;
-text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:active {
-border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 
 
 
 .menu_links{
-  background-color:cadetblue;
   margin-left: 25%;
   width: 50%;
   flex-wrap: wrap;
@@ -301,68 +291,44 @@ border-bottom: 1px solid;
 .menu_nav {
   width: 66%;
   margin-left: 17%;
-  background-color: antiquewhite;
   position: relative;
 }
 
 /* .menuItem{
-display: inline-block;
+  display: inline-block;
 } */
 
 .showMenu {
-transform: translateY(0);
+  transform: translateY(0);
 }
 
 #ru_eng{
   display: block;
-  height: 68px;
+  height: 50px;
   margin-left: 83%;
   margin-top: -70px;
-  background-color: bisque;
   position: absolute;
 }
 
-.hr1{
-  margin-top: 3px;
-  margin-bottom: 3px;
-  width: 65px;
-  height: 2.5px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-}
-
-.hr2{
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 100%;
-  height: 2px;
-  color: #000;
-  border-color: #000;
-  background-color: #000;
-
-}
-
-.RU{
-  width: 30px;
-  height: 20px;
-  font: Inter;
-  font-weight: 600;
-  font-size: 25px;
-  letter-spacing: 0px;
-  margin: 0;
-}
-
 .ENG{
-  width: 30px;
-  height: 20px;
   font: Inter;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 0px;
   margin: 0;
 }
 
+
+
+.container{
+  /* 1305 */
+  width: 68%; 
+  margin-top: 100px;
+  margin-left: 16%;
+  height: 900px;
+  display: inline-block;
+  position: relative;
+}
 
 .tittle{
   width: 100%;
@@ -384,16 +350,7 @@ transform: translateY(0);
   letter-spacing: 0px;
 }
 
-.container{
-  /* 1305 */
-  background-color: aquamarine;
-  width: 68%; 
-  margin-top: 160px;
-  margin-left: 16%;
-  height: 9500px;
-  display: inline-block;
-  position: relative;
-}
+
 
   .offer{
     margin-top: 100px;
@@ -435,19 +392,23 @@ transform: translateY(0);
     border: 2px solid #000;
   }
 
+  .features{
+    width: 100%;
+    display: block;
+    margin-top: 130px;
+  }
+
   .features_tittle{
     margin-left: 25px;
-    position: absolute;
     font: Inter;
     font-weight: 600;
     font-size: 50px;
     letter-spacing: 0px;
-    margin-top: 150px;
   }
 
   .hr3{
-    margin-top: 215px;
-    height: 4px;
+    margin-top: 10px;
+    height: 3.5px;
   }
 
   .block1_header{
@@ -1123,10 +1084,15 @@ transform: translateY(0);
     text-align: center;
   }
 
+  .line{
+    width: 100%;
+    display: block;
+    margin-top: 130px;
+  }
+
 
   .products_line_tittle{
     margin-left: 25px;
-    position: absolute;
     font: Inter;
     font-weight: 600;
     font-size: 50px;
@@ -1136,8 +1102,8 @@ transform: translateY(0);
 
   .hr4{
     width: 100%;
-    margin-top: 215px;
-    height: 4px;
+    margin-top: 10px;
+    height: 3.5px;
   }
 
   .karusel_products{
@@ -1196,7 +1162,6 @@ transform: translateY(0);
     font-size: 20px;
     letter-spacing: 0px;
     text-align: center;
-    background-color: aqua;
   }
 
   .karusel_ul{
@@ -1243,7 +1208,6 @@ transform: translateY(0);
   }
 
   .buttons{
-    background-color: aliceblue;
     width: 100%;
     height: 150px;
     position: relative;
@@ -1393,45 +1357,13 @@ transform: translateY(0);
       margin-top: 260px;
     }
   
-    #nav{
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 55;
-      width: 100%;
-      height: 75px;
-      background-color: aqua;
-      margin-top: 0;
-      padding-top: 0px;
-      padding-left: 5px;
-      padding-right: 5px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    
-  
     .wrap{
-      width: 66%;
+      width: 60%;
       height: 75px;
       position: absolute;
       top: 0;
-      margin-left: 17%;
-      background-color: blueviolet;
+      margin-left: 20%;
     }
-  
-  
-    .logo_img{
-      margin-top: 5px;
-      left: 0;
-      width: 130px;
-      height: 65px;
-    }
-    
-    .closeIcon {
-      display: none;
-    }
-  
   
     .burger1 {
       position: absolute;
@@ -1452,38 +1384,6 @@ transform: translateY(0);
       
     }
   
-  
-    .burger::before,
-    .burger::after {
-      content: '';
-      left: 0;
-      position: absolute;
-      display: block;
-      width: 100%;
-      height: 6px;
-      background: #000;
-    }
-    .burger::before {
-      top: 0;
-      box-shadow: 0 20px 0 #000;
-      transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-    }
-    .burger::after {
-      bottom: 0;
-      transition: bottom .3s .15s, transform .3s;
-    }
-    .burger.active::before {
-      top: 20px;
-      transform: rotate(45deg);
-      box-shadow: 0 6px 0 rgba(0,0,0,0);
-      transition: box-shadow .15s, top .3s, transform .3s .15s;
-    }
-    .burger.active::after {
-      bottom: 20px;
-      transform: rotate(-45deg);
-      transition: bottom .3s, transform .3s .15s;
-    }
-  
     
     .menu {
       width: 100%;
@@ -1502,9 +1402,12 @@ transform: translateY(0);
       height: 180px;
     }
   
+    .showMenu {
+      transform: translateY(0);
+    }
+  
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -1520,8 +1423,7 @@ transform: translateY(0);
   
     .menuItem2{
       width: 200px;
-      background-color: blueviolet;
-      margin-left: 4%;
+      margin-left: 3%;
       font: Inter;
       font-weight: 600;
       font-size: 23px;
@@ -1536,8 +1438,7 @@ transform: translateY(0);
   
     .menuItem3{
       width: 200px;
-      background-color: blueviolet;
-      margin-left: 4%;
+      margin-left: 3%;
       font: Inter;
       font-weight: 600;
       font-size: 23px;
@@ -1552,8 +1453,7 @@ transform: translateY(0);
   
     .menuItem4{
       width: 320px;
-      background-color: blueviolet;
-      margin-left: 4%;
+      margin-left: 3%;
       font: Inter;
       font-weight: 600;
       font-size: 23px;
@@ -1568,8 +1468,7 @@ transform: translateY(0);
   
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
-      margin-left: 4%;
+      margin-left: 3%;
       font: Inter;
       font-weight: 600;
       font-size: 23px;
@@ -1582,103 +1481,33 @@ transform: translateY(0);
       text-align: center;
     }
   
-  
-    a{
-      color: black;
-    }
-  
-    a:link {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:visited {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:focus {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      outline: none;
-      text-decoration: none;
-    }
-    
-    a:active {
-      border-bottom: 1px solid;
-    }
-  
-  
     .menu_links{
-      background-color:cadetblue;
-      margin-left: 20%;
-      width: 60%;
+      margin-left: 22%;
+      width: 56%;
       flex-wrap: wrap;
       padding-top: 5px;
       height: 60px;
     }
   
     .menu_nav {
-      width: 66%;
-      margin-left: 17%;
-      background-color: antiquewhite;
+      width: 60%;
+      margin-left: 20%;
       position: relative;
-    }
-  
-    .showMenu {
-      transform: translateY(0);
     }
   
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -55px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
-      font-size: 25px;
+      font-size: 31px;
       letter-spacing: 0px;
       margin: 0;
     }
@@ -1690,7 +1519,7 @@ transform: translateY(0);
   
     .tittle{
       width: 100%;
-      height: 100px;
+      height: 80px;
       background-color: rgb(38, 20, 94);
       margin-top: 75px;
       position: absolute;
@@ -1751,6 +1580,16 @@ transform: translateY(0);
     }
   }
 
+  @media (max-width:1904px){
+  .tittle{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(38, 20, 94);
+    margin-top: 75px;
+    position: absolute;
+  }
+}
+
   @media (max-width:1900px){
     .karusel{
       margin-top: 200px;
@@ -1780,7 +1619,6 @@ transform: translateY(0);
 
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -1796,7 +1634,6 @@ transform: translateY(0);
     
     .menuItem2{
       width: 180px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1812,7 +1649,6 @@ transform: translateY(0);
     
     .menuItem3{
       width: 170px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1828,7 +1664,6 @@ transform: translateY(0);
     
     .menuItem4{
       width: 290px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -1844,7 +1679,6 @@ transform: translateY(0);
     
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -2090,7 +1924,6 @@ transform: translateY(0);
       position: absolute;
       top: 0;
       margin-left: 17%;
-      background-color: blueviolet;
     }
   
   
@@ -2133,7 +1966,6 @@ transform: translateY(0);
   
     .menuItem1{
       width: 60px;
-      background-color: blueviolet;
       font: Inter;
       font-weight: 600;
       font-size: 20px;
@@ -2148,7 +1980,6 @@ transform: translateY(0);
   
     .menuItem2{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2164,7 +1995,6 @@ transform: translateY(0);
   
     .menuItem3{
       width: 100px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2180,7 +2010,6 @@ transform: translateY(0);
   
     .menuItem4{
       width: 150px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2196,7 +2025,6 @@ transform: translateY(0);
   
     .menuItem5{
       width: 110px;
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -2211,7 +2039,6 @@ transform: translateY(0);
     }
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 25%;
       width: 50%;
       flex-wrap: wrap;
@@ -2222,7 +2049,6 @@ transform: translateY(0);
     .menu_nav {
       width: 66%;
       margin-left: 17%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -2232,47 +2058,13 @@ transform: translateY(0);
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -2364,6 +2156,18 @@ transform: translateY(0);
   }
 
   @media (max-width:1300px){
+
+    .text1{
+      margin-top: 460px;
+      margin-left: 8%;
+      margin-right: 8%;
+      font: Inter;
+      font-weight: 400;
+      font-size: 25px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
     .karusel{
       margin-top: 110px;
     }
@@ -2536,7 +2340,6 @@ transform: translateY(0);
       z-index: 55;
       width: 100%;
       height: 75px;
-      background-color: aqua;
       margin-top: 0;
       padding-top: 0px;
       padding-left: 5px;
@@ -2552,7 +2355,6 @@ transform: translateY(0);
       position: absolute;
       top: 0;
       margin-left: 17%;
-      background-color: blueviolet;
       }
       
       .logo_img{
@@ -2635,7 +2437,6 @@ transform: translateY(0);
     
       .menuItem1{
         width: 60px;
-        background-color: blueviolet;
         font: Inter;
         font-weight: 600;
         font-size: 20px;
@@ -2650,7 +2451,6 @@ transform: translateY(0);
     
       .menuItem2{
         width: 100px;
-        background-color: blueviolet;
         margin-left: 3.5%;
         font: Inter;
         font-weight: 600;
@@ -2666,7 +2466,6 @@ transform: translateY(0);
     
       .menuItem3{
         width: 100px;
-        background-color: blueviolet;
         margin-left: 3.5%;
         font: Inter;
         font-weight: 600;
@@ -2682,7 +2481,6 @@ transform: translateY(0);
     
       .menuItem4{
         width: 150px;
-        background-color: blueviolet;
         margin-left: 3.5%;
         font: Inter;
         font-weight: 600;
@@ -2698,7 +2496,6 @@ transform: translateY(0);
     
       .menuItem5{
         width: 110px;
-        background-color: blueviolet;
         margin-left: 3.5%;
         font: Inter;
         font-weight: 600;
@@ -2717,7 +2514,6 @@ transform: translateY(0);
     
     
       .menu_links{
-        background-color:cadetblue;
         margin-left: 20%;
         width: 60%;
         flex-wrap: wrap;
@@ -2759,7 +2555,6 @@ transform: translateY(0);
       .menu_nav {
         width: 66%;
         margin-left: 17%;
-        background-color: antiquewhite;
         position: relative;
       }
       
@@ -2773,47 +2568,13 @@ transform: translateY(0);
       
       #ru_eng{
         display: block;
-        height: 68px;
+        height: 50px;
         margin-left: 83%;
-        margin-top: -70px;
-        background-color: bisque;
+        margin-top: -50px;
         position: absolute;
       }
       
-      .hr1{
-        margin-top: 3px;
-        margin-bottom: 3px;
-        width: 65px;
-        height: 2.5px;
-        color: #000;
-        border-color: #000;
-        background-color: #000;
-      }
-      
-      .hr2{
-        margin-top: 0px;
-        margin-left: 0px;
-        width: 100%;
-        height: 2px;
-        color: #000;
-        border-color: #000;
-        background-color: #000;
-      
-      }
-      
-      .RU{
-        width: 30px;
-        height: 20px;
-        font: Inter;
-        font-weight: 600;
-        font-size: 25px;
-        letter-spacing: 0px;
-        margin: 0;
-      }
-      
       .ENG{
-        width: 30px;
-        height: 20px;
         font: Inter;
         font-weight: 600;
         font-size: 25px;
@@ -3243,17 +3004,7 @@ transform: translateY(0);
       margin-top: -90px;
       text-align: center;
     }
-  
-  
-    .products_line_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 150px;
-    }
+
 
   
     .karusel_header{
@@ -3277,7 +3028,6 @@ transform: translateY(0);
       font-size: 20px;
       letter-spacing: 0px;
       text-align: center;
-      background-color: aqua;
     }
   
     .karusel_li{
@@ -3637,7 +3387,6 @@ transform: translateY(0);
       position: absolute;
       top: 0;
       margin-left: 10%;
-      background-color: blueviolet;
     }
   
   
@@ -3679,7 +3428,6 @@ transform: translateY(0);
     }
   
     .menuItem1{
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -3694,7 +3442,6 @@ transform: translateY(0);
     }
   
     .menuItem2{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -3709,7 +3456,6 @@ transform: translateY(0);
     }
   
     .menuItem3{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -3724,7 +3470,6 @@ transform: translateY(0);
     }
   
     .menuItem4{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -3739,7 +3484,6 @@ transform: translateY(0);
     }
   
     .menuItem5{
-      background-color: blueviolet;
       margin-left: 3.5%;
       font: Inter;
       font-weight: 600;
@@ -3757,7 +3501,6 @@ transform: translateY(0);
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 17%;
       width: 66%;
       flex-wrap: wrap;
@@ -3768,7 +3511,6 @@ transform: translateY(0);
     .menu_nav {
       width: 80%;
       margin-left: 10%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -3778,54 +3520,19 @@ transform: translateY(0);
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 83%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
       letter-spacing: 0px;
       margin: 0;
     }
-  
   
     .tittle{
       width: 100%;
@@ -3866,7 +3573,6 @@ transform: translateY(0);
       font-size: 17px;
       letter-spacing: 0px;
       position: absolute;
-      background-color: aqua;
     }
     
     .email_adress{
@@ -3879,7 +3585,6 @@ transform: translateY(0);
       font-size: 17px;
       letter-spacing: 0px;
       position: absolute;
-      background-color: aquamarine;
     }
   }
 
@@ -3901,7 +3606,6 @@ transform: translateY(0);
       position: absolute;
       top: 0;
       margin-left: 7%;
-      background-color: blueviolet;
     }
   
   
@@ -3944,7 +3648,6 @@ transform: translateY(0);
     }
   
     .menuItem1{
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -3959,7 +3662,6 @@ transform: translateY(0);
     }
   
     .menuItem2{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -3974,7 +3676,6 @@ transform: translateY(0);
     }
   
     .menuItem3{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -3989,7 +3690,6 @@ transform: translateY(0);
     }
   
     .menuItem4{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -4004,7 +3704,6 @@ transform: translateY(0);
     }
   
     .menuItem5{
-      background-color: blueviolet;
       margin-left: 2%;
       font: Inter;
       font-weight: 600;
@@ -4022,7 +3721,6 @@ transform: translateY(0);
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 11%;
       width: 78%;
       flex-wrap: wrap;
@@ -4033,7 +3731,6 @@ transform: translateY(0);
     .menu_nav {
       width: 86%;
       margin-left: 7%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -4044,47 +3741,13 @@ transform: translateY(0);
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 80%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -4126,9 +3789,9 @@ transform: translateY(0);
   
     }
     .text1{
-      margin-top: 500px;
-      margin-left: 8%;
-      margin-right: 8%;
+      margin-top: 550px;
+      margin-left: 5%;
+      margin-right: 5%;
       font: Inter;
       font-weight: 400;
       font-size: 25px;
@@ -4140,16 +3803,6 @@ transform: translateY(0);
       margin-left: 25%;
       margin-top: 100px;
       border: 2px solid #000;
-    }
-  
-    .features_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 150px;
     }
   
     
@@ -4579,18 +4232,12 @@ transform: translateY(0);
 
   @media (max-width:800px){
 
-    .hr3{
-      margin-top: 265px;
-      height: 4px;
-    }
-
     .karusel{
       margin-top: 200px;
     }
 
 
     .buttons{
-      background-color: aliceblue;
       width: 100%;
       height: 100px;
       position: relative;
@@ -4704,16 +4351,6 @@ transform: translateY(0);
       margin-left: 25%;
       margin-top: 100px;
       border: 2px solid #000;
-    }
-  
-    .features_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 150px;
     }
   
    
@@ -5063,7 +4700,6 @@ transform: translateY(0);
       position: absolute;
       top: 0;
       margin-left: 4%;
-      background-color: blueviolet;
     }
   
   
@@ -5108,7 +4744,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -5126,7 +4761,6 @@ transform: translateY(0);
       width: 100%;
       margin-top: 20px;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -5144,7 +4778,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -5162,7 +4795,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -5180,7 +4812,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -5195,7 +4826,6 @@ transform: translateY(0);
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 14%;
       width: 72%;
       flex-wrap: wrap;
@@ -5206,7 +4836,6 @@ transform: translateY(0);
     .menu_nav {
       width: 92%;
       margin-left: 4%;
-      background-color: antiquewhite;
       position: relative;
     }
   
@@ -5217,47 +4846,13 @@ transform: translateY(0);
   
     #ru_eng{
       display: block;
-      height: 68px;
+      height: 50px;
       margin-left: 75%;
-      margin-top: -70px;
-      background-color: bisque;
+      margin-top: -50px;
       position: absolute;
     }
-  
-    .hr1{
-      margin-top: 3px;
-      margin-bottom: 3px;
-      width: 65px;
-      height: 2.5px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-    }
-  
-    .hr2{
-      margin-top: 0px;
-      margin-left: 0px;
-      width: 100%;
-      height: 2px;
-      color: #000;
-      border-color: #000;
-      background-color: #000;
-  
-    }
-  
-    .RU{
-      width: 30px;
-      height: 20px;
-      font: Inter;
-      font-weight: 600;
-      font-size: 25px;
-      letter-spacing: 0px;
-      margin: 0;
-    }
-  
+    
     .ENG{
-      width: 30px;
-      height: 20px;
       font: Inter;
       font-weight: 600;
       font-size: 25px;
@@ -5784,17 +5379,7 @@ transform: translateY(0);
       margin-top: -70px;
       text-align: center;
     }
-  
-  
-    .products_line_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: 0px;
-      margin-top: 150px;
-    }
+
 
   
     .karusel_header{
@@ -5818,7 +5403,6 @@ transform: translateY(0);
       font-size: 18px;
       letter-spacing: 0px;
       text-align: center;
-      background-color: aqua;
     }
   
     .karusel_li{
@@ -5866,7 +5450,6 @@ transform: translateY(0);
     }
     
     .buttons{
-      background-color: aliceblue;
       width: 100%;
       height: 100px;
       position: relative;
@@ -5895,9 +5478,30 @@ transform: translateY(0);
       height: 11000px;
     }
 
-    .hr4{
-      margin-top: 275px;
+    .ur_adress{
+      width: 30%;
+      left: 20%;
+      top: 30px;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0px;
+      position: absolute;
     }
+    
+    .email_adress{
+      width: 30%;
+      left: 65%;
+      top: 30px;
+      color: #ffffff;
+      font: Inter;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0px;
+      position: absolute;
+    }
+
   
   
   }
@@ -6164,11 +5768,18 @@ transform: translateY(0);
   
     #ru_eng{
       display: block;
-      height: 68px;
-      margin-left: 62%;
-      margin-top: -70px;
-      background-color: bisque;
+      height: 50px;
+      margin-left: 65%;
+      margin-top: -50px;
       position: absolute;
+    }
+    
+    .ENG{
+      font: Inter;
+      font-weight: 600;
+      font-size:25px;
+      letter-spacing: 0px;
+      margin: 0;
     }
   
   
@@ -6177,7 +5788,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -6195,7 +5805,6 @@ transform: translateY(0);
       width: 100%;
       margin-top: 20px;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -6213,7 +5822,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -6231,7 +5839,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -6249,7 +5856,6 @@ transform: translateY(0);
       margin-top: 20px;
       width: 100%;
       text-align: center;
-      background-color: blueviolet;
       margin-left: 0;
       font: Inter;
       font-weight: 600;
@@ -6264,7 +5870,6 @@ transform: translateY(0);
   
   
     .menu_links{
-      background-color:cadetblue;
       margin-left: 14%;
       width: 72%;
       flex-wrap: wrap;
@@ -6312,7 +5917,7 @@ transform: translateY(0);
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -6324,7 +5929,7 @@ transform: translateY(0);
     color: #ffffff;
     font: Inter;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 0px;
     position: absolute;
   }
@@ -6348,23 +5953,11 @@ transform: translateY(0);
     }
 
     .products_line_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
       font-size: 40px;
-      letter-spacing: 0px;
-      margin-top: 150px;
     }
 
     .features_tittle{
-      margin-left: 25px;
-      position: absolute;
-      font: Inter;
-      font-weight: 600;
       font-size: 40px;
-      letter-spacing: 0px;
-      margin-top: 150px;
     }
 
     .text1{
@@ -6401,12 +5994,102 @@ transform: translateY(0);
   .karusel{
     margin-top: 70px;
   }
+
+  .ur_adress{
+    width: 30%;
+    left: 20%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
+  
+  .email_adress{
+    width: 30%;
+    left: 65%;
+    top: 30px;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0px;
+    position: absolute;
+  }
   }
 
   @media (max-width:400px){
 
     .tittle{
       height: 130px;
+    }
+
+    #ru_eng{
+      display: block;
+      height: 50px;
+      margin-left: 60%;
+      margin-top: -50px;
+      position: absolute;
+    }
+    
+    .ENG{
+      font: Inter;
+      font-weight: 600;
+      font-size:25px;
+      letter-spacing: 0px;
+      margin: 0;
+    }
+  
+    .block6_card_num1{
+      margin-left: 27%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num2{
+      margin-left: 27%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num3{
+      margin-left: 33%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num4{
+      margin-left: 27%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
+    }
+  
+    .block6_card_num5{
+      margin-left: 35%;
+      margin-top: 50px;
+      color: rgb(38, 20, 94);
+      font: Inter;
+      font-weight: 600;
+      font-size: 75px;
+      letter-spacing: 0px;
     }
 
   }
