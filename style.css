@@ -653,7 +653,8 @@ footer{
   }
 
   .zastavka{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     height: 750px;
     /* height: 795px; */
     background-image: url(img/главная_фон.jpg);
@@ -796,6 +797,10 @@ footer{
 
 
 @media (max-width:1850px){
+  .zastavka{
+    width: 100%;
+    margin-left: 0%;
+  }
   .menuItem1{
     width: 60px;
     margin-left: 0;
@@ -2806,7 +2811,7 @@ footer{
 
   .content{
     width: 100%;
-    height: 1850px;
+    height: 1750px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
