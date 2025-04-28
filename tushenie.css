@@ -1,6 +1,6 @@
 #preloader {
     width: 100%;
-    height: 700px;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -324,7 +324,7 @@
   
   .tittle{
     width: 100%;
-    height: 100px;
+    padding: 2px;
     background-color: rgb(38, 20, 94);
     margin-top: 75px;
     position: absolute; 
@@ -333,7 +333,6 @@
   .tittle1{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
@@ -946,18 +945,9 @@
           }
         
         
-          .tittle{
-            width: 100%;
-            height: 100px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
-        
           .tittle1{
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-top: 10px;
+            margin-left: 5%;
+            margin-right: 5%;
             text-align: center;
             color: white;
             font: Inter;
@@ -1306,17 +1296,7 @@
           margin: 0;
         }
     
-    
-        .tittle{
-          width: 100%;
-          height: 120px;
-          background-color: rgb(38, 20, 94);
-          margin-top: 75px;
-          position: absolute;
-        }
-    
         .tittle1{
-          margin-top: 10px;
           text-align: center;
           color: white;
           font: Inter;
@@ -1630,16 +1610,7 @@
         }
       
       
-        .tittle{
-            width: 100%;
-            height: 120px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
-      
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2049,17 +2020,9 @@
           margin: 0;
         }
       
-      
-        .tittle{
-            width: 100%;
-            height: 135px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
+  
       
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2331,16 +2294,7 @@
         }
       
       
-        .tittle{
-            width: 100%;
-            height: 135px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
-      
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2599,16 +2553,7 @@
         }
       
       
-        .tittle{
-          width: 100%;
-          height: 180px;
-          background-color: rgb(38, 20, 94);
-          margin-top: 75px;
-          position: absolute;
-        }
-      
         .tittle1{
-          margin-top: 10px;
           text-align: center;
           color: white;
           font: Inter;
@@ -3036,17 +2981,8 @@
           margin: 0;
         }
       
-      
-        .tittle{
-            width: 100%;
-            height: 180px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
         
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -3058,7 +2994,7 @@
           .container{
             /* 1305 */
             width: 92%; 
-            margin-top: 255px;
+            margin-top: 300px;
             margin-left: 4%;
             height: 4400px;
             display: inline-block;
@@ -3319,10 +3255,6 @@
                 box-sizing: border-box;
                 display: block;
               }
-
-              .tittle{
-                height: 230px;
-              }
             
               .container{
                 /* 1305 */
@@ -3409,14 +3341,11 @@
 
         @media (max-width:500px){
 
-        .tittle{
-            height: 270px;
-          }
         
           .container{
             /* 1305 */
             width: 92%; 
-            margin-top: 345px;
+            margin-top: 400px;
             margin-left: 4%;
             height: 4200px;
             display: inline-block;
@@ -3435,7 +3364,7 @@
         @media (max-width:450px){
             .content{
               width: 100%;
-              height: 4400px;
+              height: 4450px;
               margin: 0;
               padding-top: 0px;
               box-sizing: border-box;
@@ -3572,17 +3501,7 @@
           
            
           
-          
-            .tittle{
-              width: 100%;
-              height: 240px;
-              background-color: rgb(38, 20, 94);
-              margin-top: 75px;
-              position: absolute;
-            }
-          
             .tittle1{
-              margin-top: 5px;
               text-align: center;
               color: white;
               font: Inter;
@@ -3594,7 +3513,7 @@
             .container{
                 /* 1305 */
                 width: 92%; 
-                margin-top: 315px;
+                margin-top: 380px;
                 margin-left: 4%;
                 height: 3900px;
                 display: inline-block;
@@ -3861,28 +3780,21 @@
           }
 
           @media (max-width:385px){
-          .tittle{
-            width: 100%;
-            height: 270px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
+
         
           .tittle1{
-            margin-top: 5px;
             text-align: center;
             color: white;
             font: Inter;
             font-weight: 700;
-            font-size: 30px;
+            font-size: 28px;
             letter-spacing: 0px;
           }
         
           .container{
               /* 1305 */
               width: 92%; 
-              margin-top: 345px;
+              margin-top: 380px;
               margin-left: 4%;
               height: 3900px;
               display: inline-block;

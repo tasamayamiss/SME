@@ -1,6 +1,6 @@
 #preloader {
   width: 100%;
-  height: 700px;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -332,16 +332,17 @@ a:active {
 
 .tittle{
   width: 100%;
-  height: 85px;
+  padding: 2px;
   background-color: rgb(38, 20, 94);
   margin-top: 75px;
   position: absolute; 
 }
 
+
 .tittle1{
+  padding: 2px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 10px;
   text-align: center;
   color: white;
   font: Inter;
@@ -1517,18 +1518,9 @@ a:active {
     }
   
   
-    .tittle{
-      width: 100%;
-      height: 80px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
-  
     .tittle1{
       margin-left: 5%;
       margin-right: 5%;
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -2068,18 +2060,9 @@ a:active {
     }
   
   
-    .tittle{
-      width: 100%;
-      height: 110px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
-  
     .tittle1{
       margin-left: 5%;
       margin-right: 5%;
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -2571,20 +2554,11 @@ a:active {
         letter-spacing: 0px;
         margin: 0;
       }
-      
-      
-      .tittle{
-        width: 100%;
-        height: 110px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute; 
-      }
+   
       
       .tittle1{
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -3523,18 +3497,11 @@ a:active {
       letter-spacing: 0px;
       margin: 0;
     }
-  
-    .tittle{
-      width: 100%;
-      height: 110px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 70px;
-      position: absolute;
-    }
+
   
     .tittle1{
       margin-left: 3%;
-      margin-top: 10px;
+      margin-right: 3%;
       text-align: center;
       color: white;
       font: Inter;
@@ -4861,16 +4828,8 @@ a:active {
     }
   
   
-    .tittle{
-      width: 100%;
-      height: 140px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
   
     .tittle1{
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -5892,16 +5851,8 @@ a:active {
       transform: translateY(0);
     }
   
-    .tittle{
-      width: 100%;
-      height: 100px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
   
     .tittle1{
-      margin-top: 5px;
       text-align: center;
       color: white;
       font: Inter;
@@ -6032,9 +5983,36 @@ a:active {
 
   @media (max-width:400px){
 
-    .tittle{
-      height: 130px;
+    .buttons{
+      margin-top: 150px;
     }
+
+    .product{
+      margin-top: -140px;
+    }
+
+    .d1 {
+      width: 0; 
+      height: 0;
+      border-top: 6px solid transparent;
+      border-right: 6px solid #ffffff;
+      border-bottom: 6px solid transparent;
+      position: absolute;
+      margin-top: 45px;
+      margin-left: 5px;
+      }
+  
+      .d2 {
+        width: 0; 
+        height: 0;
+        border-top: 6px solid transparent;
+        border-left: 6px solid #ffffff;
+        border-bottom: 6px solid transparent;
+        position: absolute;
+        margin-top: 45px;
+        margin-left: 5px;
+        }
+
 
     #ru_eng{
       display: block;
