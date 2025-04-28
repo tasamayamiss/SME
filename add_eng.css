@@ -1,6 +1,6 @@
 #preloader {
   width: 100%;
-  height: 700px;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -324,7 +324,7 @@ transform: translateY(0);
   
   .tittle{
     width: 100%;
-    height: 75px;
+    padding: 2px;
     background-color: rgb(38, 20, 94);
     margin-top: 75px;
     position: absolute; 
@@ -333,7 +333,6 @@ transform: translateY(0);
   .tittle1{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
@@ -805,19 +804,10 @@ footer{
   
 
     
-    
-      .tittle{
-        width: 100%;
-        height: 75px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute; 
-      }
       
       .tittle1{
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -1123,16 +1113,8 @@ footer{
       margin: 0;
     }
 
-    .tittle{
-      width: 100%;
-      height: 80px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
 
     .tittle1{
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -1365,17 +1347,9 @@ footer{
       margin: 0;
     }
   
-  
-    .tittle{
-        width: 100%;
-        height: 80px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
+
   
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -1389,7 +1363,7 @@ footer{
     .container{
       /* 1305 */
       width: 72%; 
-      margin-top: 155px;
+      margin-top: 200px;
       margin-left: 14%;
       height: 3950px;
       display: inline-block;
@@ -1483,27 +1457,7 @@ footer{
   }
   }
 
-  @media (max-width:1170px){
-    .tittle{
-      width: 100%;
-      height: 100px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
 
-    .tittle1{
-      margin-top: 10px;
-      text-align: center;
-      color: white;
-      font: Inter;
-      font-weight: 800;
-      font-size: 30px;
-      letter-spacing: 0px;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-  }
 
 
   @media (max-width:1094px){
@@ -1671,16 +1625,7 @@ footer{
     }
   
   
-    .tittle{
-        width: 100%;
-        height: 100px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
-  
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -1694,7 +1639,7 @@ footer{
     .container{
       /* 1305 */
       width: 80%; 
-      margin-top: 175px;
+      margin-top: 200px;
       margin-left: 10%;
       height: 4950px;
       display: inline-block;
@@ -1998,16 +1943,9 @@ footer{
     }
   
   
-    .tittle{
-        width: 100%;
-        height: 115px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
+
   
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -2021,7 +1959,7 @@ footer{
     .container{
       /* 1305 */
       width: 80%; 
-      margin-top: 190px;
+      margin-top: 250px;
       margin-left: 10%;
       height: 5000px;
       display: inline-block;
@@ -2347,16 +2285,7 @@ footer{
     }
   
   
-    .tittle{
-      width: 100%;
-      height: 110px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
-  
     .tittle1{
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -2368,7 +2297,7 @@ footer{
     .container{
       /* 1305 */
       width: 92%; 
-      margin-top: 185px;
+      margin-top: 250px;
       margin-left: 4%;
       height: 5200px;
       display: inline-block;
@@ -2486,16 +2415,8 @@ footer{
 
 
   @media (max-width:590px){
-    .tittle{
-      width: 100%;
-      height: 140px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
 
     .tittle1{
-      margin-top: 10px;
       text-align: center;
       color: white;
       font: Inter;
@@ -2509,7 +2430,7 @@ footer{
     .container{
       /* 1305 */
       width: 92%; 
-      margin-top: 200px;
+      margin-top: 270px;
       margin-left: 4%;
       height: 5200px;
       display: inline-block;
@@ -2659,17 +2580,8 @@ footer{
   
    
   
-  
-    .tittle{
-        width: 100%;
-        height: 140px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
     
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -2681,7 +2593,7 @@ footer{
       .container{
         /* 1305 */
         width: 92%; 
-        margin-top: 215px;
+        margin-top: 270px;
         margin-left: 4%;
         height: 4500px;
         display: inline-block;
@@ -2802,31 +2714,22 @@ footer{
         box-sizing: border-box;
         display: block;
       }
-
-    .tittle{
-        width: 100%;
-        height: 185px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute; 
-      }
       
       .tittle1{
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
         font-weight: 800;
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0px;
       }
 
       .container{
         /* 1305 */
         width: 92%; 
-        margin-top: 260px;
+        margin-top: 280px;
         margin-left: 4%;
         height: 4800px;
         display: inline-block;
