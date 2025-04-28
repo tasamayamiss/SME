@@ -1,6 +1,6 @@
 #preloader {
     width: 100%;
-    height: 700px;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -324,7 +324,7 @@
   
   .tittle{
     width: 100%;
-    height: 100px;
+    padding: 2px;
     background-color: rgb(38, 20, 94);
     margin-top: 75px;
     position: absolute; 
@@ -333,7 +333,6 @@
   .tittle1{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
@@ -946,18 +945,9 @@
           }
         
         
-          .tittle{
-            width: 100%;
-            height: 80px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
-        
           .tittle1{
             margin-left: 5%;
             margin-right: 5%;
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -1141,18 +1131,10 @@
       }
 
       @media (max-width:1560px){
-      .tittle{
-        width: 100%;
-        height: 100px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
     
       .tittle1{
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -1329,16 +1311,7 @@
         }
     
     
-        .tittle{
-          width: 100%;
-          height: 120px;
-          background-color: rgb(38, 20, 94);
-          margin-top: 75px;
-          position: absolute;
-        }
-    
         .tittle1{
-          margin-top: 10px;
           text-align: center;
           color: white;
           font: Inter;
@@ -1652,16 +1625,9 @@
         }
       
       
-        .tittle{
-            width: 100%;
-            height: 120px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
+
       
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2071,17 +2037,9 @@
           margin: 0;
         }
       
-      
-        .tittle{
-            width: 100%;
-            height: 100px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
+
       
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2353,16 +2311,8 @@
         }
       
       
-        .tittle{
-            width: 100%;
-            height: 105px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
       
           .tittle1{
-            margin-top: 10px;
             text-align: center;
             color: white;
             font: Inter;
@@ -2422,16 +2372,8 @@
       }
 
       @media (max-width:884px){
-      .tittle{
-        width: 100%;
-        height: 135px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
   
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -2661,18 +2603,8 @@
           letter-spacing: 0px;
           margin: 0;
         }
-      
-      
-        .tittle{
-          width: 100%;
-          height: 140px;
-          background-color: rgb(38, 20, 94);
-          margin-top: 75px;
-          position: absolute;
-        }
     
         .tittle1{
-          margin-top: 10px;
           text-align: center;
           color: white;
           font: Inter;
@@ -2686,7 +2618,7 @@
         .container{
           /* 1305 */
           width: 92%; 
-          margin-top: 200px;
+          margin-top: 300px;
           margin-left: 4%;
           height: 3800px;
           display: inline-block;
@@ -3102,17 +3034,8 @@
           margin: 0;
         }
       
-      
-        .tittle{
-          width: 100%;
-          height: 145px;
-          background-color: rgb(38, 20, 94);
-          margin-top: 75px;
-          position: absolute;
-        }
     
         .tittle1{
-          margin-top: 10px;
           text-align: center;
           color: white;
           font: Inter;
@@ -3126,7 +3049,7 @@
           .container{
             /* 1305 */
             width: 92%; 
-            margin-top: 210px;
+            margin-top: 300px;
             margin-left: 4%;
             height: 4400px;
             display: inline-block;
@@ -3378,16 +3301,8 @@
       }
 
       @media (max-width:576px){
-      .tittle{
-        width: 100%;
-        height: 180px;
-        background-color: rgb(38, 20, 94);
-        margin-top: 75px;
-        position: absolute;
-      }
   
       .tittle1{
-        margin-top: 10px;
         text-align: center;
         color: white;
         font: Inter;
@@ -3488,7 +3403,7 @@
           .container{
             /* 1305 */
             width: 92%; 
-            margin-top: 300px;
+            margin-top: 350px;
             margin-left: 4%;
             height: 4200px;
             display: inline-block;
@@ -3503,15 +3418,6 @@
 
         }
 
-        @media (max-width:490px){
-          .tittle{
-            width: 100%;
-            height: 230px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
-        }
 
 
         @media (max-width:450px){
@@ -3652,19 +3558,8 @@
           
           
           
-           
-          
-          
-            .tittle{
-              width: 100%;
-              height: 200px;
-              background-color: rgb(38, 20, 94);
-              margin-top: 75px;
-              position: absolute;
-            }
           
             .tittle1{
-              margin-top: 5px;
               text-align: center;
               color: white;
               font: Inter;
@@ -3943,16 +3838,8 @@
           }
 
           @media (max-width:385px){
-          .tittle{
-            width: 100%;
-            height: 200px;
-            background-color: rgb(38, 20, 94);
-            margin-top: 75px;
-            position: absolute;
-          }
         
           .tittle1{
-            margin-top: 5px;
             text-align: center;
             color: white;
             font: Inter;
