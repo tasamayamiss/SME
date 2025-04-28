@@ -1854,6 +1854,14 @@ transform: translateY(0);
   }
 }
 
+@media (max-width:1143px){
+
+  .karusel_button2{
+    margin-left: 82.3%;
+  }
+
+}
+
 @media (max-width:1124px){
 .tittle{
   width: 100%;
@@ -1883,10 +1891,6 @@ transform: translateY(0);
   position: relative;
 }
 }
-
-
-
-
 
 @media (max-width:1094px){
 
