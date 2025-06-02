@@ -504,6 +504,13 @@ li{
 
 }
 
+.video{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 80px;
+  border-radius: 25px;
+}
+
 
 footer{
     width: 100%;
@@ -1438,6 +1445,13 @@ footer{
       font-size: 45px;
       letter-spacing: 0px;
     }
+
+      .video{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    border-radius: 20px;
+  }
 
     footer{
         width: 100%;
@@ -2525,6 +2539,13 @@ footer{
       font-size: 35px;
       letter-spacing: 0px;
     }
+
+      .video{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    border-radius: 15px;
+  }
 
     .ur_adress{
       width: 50%;

@@ -313,26 +313,25 @@ a:active {
 
 .tittle{
   width: 100%;
-  height: 80px;
+  padding: 5px;
   background-color: rgb(38, 20, 94);
   margin-top: 75px;
   position: absolute;
 }
 
 .tittle1{
-  margin-top: 10px;
   text-align: center;
   color: white;
   font: Inter;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 0px;
 }
 
 .container{
   /* 1305 */
   width: 68%; 
-  margin-top: 155px;
+  margin-top: 200px;
   margin-left: 16%;
   height: 2450px;
   display: inline-block;
@@ -778,7 +777,7 @@ a:active {
 
 .card8{
   width: 45%;
-  height: 640px;
+  height: 260px;
   border-radius: 30px;
   border: 2px solid #000000;
   background: #f3f3f3;
@@ -823,15 +822,15 @@ a:active {
 }
 
 .card8_logo1{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
 }
 
 .card8_logo2{
-  width: 70%;
-  margin-top: 30px;
-  margin-left: 15%;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
 }
 
 
@@ -845,7 +844,6 @@ a:active {
   position: relative;
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -380px;
 }
 
 .card_text9{
@@ -888,7 +886,12 @@ a:active {
   margin-left: 35%;
 }
 
-
+.hr_card10{
+  width: 94%;
+  height: 2.5px;
+  margin-left: 6%;
+  margin-top: 40px;
+}
 
   
 
@@ -930,7 +933,7 @@ footer{
 @media (max-width:3000px){
   .content{
     width: 100%;
-    height: 2600px;
+    height: 3000px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -1186,30 +1189,12 @@ footer{
   }
 
 
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
-  .tittle1{
-    margin-top: 10px;
-    text-align: center;
-    color: white;
-    font: Inter;
-    font-weight: 800;
-    font-size: 45px;
-    letter-spacing: 0px;
-  }
-
   .container{
     /* 1305 */
     width: 60%; 
-    margin-top: 155px;
+    margin-top: 250px;
     margin-left: 20%;
-    height: 2450px;
+    height: 2850px;
     display: inline-block;
     position: relative;
   }
@@ -1254,7 +1239,7 @@ footer{
 
 .card1 {
     width: 40%;
-    height: 450px;
+    height: 520px;
     border-radius: 30px;
     border: 2px solid #000000;
     /* padding: 40px 90px 76px 40px; */
@@ -1297,7 +1282,7 @@ footer{
 
 .card2 {
   width: 40%;
-  height: 450px;
+  height: 470px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -1351,7 +1336,7 @@ footer{
 
 .card3 {
   width: 40%;
-  height: 450px;
+  height: 520px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -1404,13 +1389,14 @@ footer{
 
 .card4{
   width: 40%;
-  height: 450px;
+  height: 500px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -50px;
 }
 
 .card_text4{
@@ -1457,7 +1443,7 @@ footer{
 
 .card5 {
   width: 40%;
-  height: 300px;
+  height: 350px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -1496,7 +1482,7 @@ footer{
 
 .card5_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 10%;
 }
 
@@ -1511,7 +1497,8 @@ footer{
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -70px;
 }
 
 .card_text6{
@@ -1553,7 +1540,7 @@ footer{
 
 .card7 {
   width: 40%;
-  height: 260px;
+  height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -1593,7 +1580,7 @@ footer{
 
 .card7_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
@@ -1601,13 +1588,14 @@ footer{
 
 .card8{
   width: 40%;
-  height: 640px;
+  height: 550px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -120px;
 }
 
 .card_text8{
@@ -1640,28 +1628,28 @@ footer{
 
 
 .card8_logo1{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
 }
 
 .card8_logo2{
-  width: 70%;
-  margin-top: 30px;
-  margin-left: 15%;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
 }
 
 
 .card9{
   width: 40%;
-  height: 330px;
+  height: 430px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -380px;
+  margin-top: -100px;
 }
 
 .card_text9{
@@ -1695,8 +1683,54 @@ footer{
 
 .card9_logo1{
   width: 30%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 35%;
+}
+
+.card10{
+  width: 40%;
+  height: 330px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+}
+
+.card_text10{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 32.5%;
 }
 
 
@@ -1825,7 +1859,7 @@ footer{
 @media (max-width:1500px){
     .content{
       width: 100%;
-      height: 2600px;
+      height: 2900px;
       margin: 0;
       padding-top: 0px;
       box-sizing: border-box;
@@ -1987,31 +2021,12 @@ footer{
       margin: 0;
     }
 
-
-    .tittle{
-      width: 100%;
-      height: 80px;
-      background-color: rgb(38, 20, 94);
-      margin-top: 75px;
-      position: absolute;
-    }
-
-    .tittle1{
-      margin-top: 10px;
-      text-align: center;
-      color: white;
-      font: Inter;
-      font-weight: 800;
-      font-size: 45px;
-      letter-spacing: 0px;
-    }
-
     .container{
       /* 1305 */
       width: 68%; 
-      margin-top: 155px;
+      margin-top: 250px;
       margin-left: 16%;
-      height: 2450px;
+      height: 2750px;
       display: inline-block;
       position: relative;
     }
@@ -2055,51 +2070,7 @@ footer{
   }
 
   .card1 {
-      width: 45%;
-      height: 450px;
-      border-radius: 30px;
-      border: 2px solid #000000;
-      /* padding: 40px 90px 76px 40px; */
-      position: relative;
-      display: inline-block;
-      box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
-
-
-  .card_tittle1{
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 700;
-      font-size: 30px;
-      letter-spacing: 0px;
-      position: absolute;
-  }
-
-  .card_num1{
-      color: rgb(38, 20, 94);
-      font: Inter;
-      font-weight: 600;
-      font-size: 30px;
-      letter-spacing: 0px;
-      right: 5%;
-      position: absolute;
-  }
-
-
-  .card1_logo1{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
-
-  .card1_logo2{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
-
-  .card2 {
-    width: 45%;
+    width: 40%;
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
@@ -2107,64 +2078,18 @@ footer{
     position: relative;
     display: inline-block;
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
+}
+
+.card_text1{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
 
-  .card_tittle2{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num2{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
-
-
-  .card2_logo1{
-    width: 80%;
-    height: 150px;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
-
-  .card2_logo2{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
-
-
-  .card3 {
-    width: 45%;
-    height: 450px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
-
-  .card_tittle3{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num3{
+.card_num1{
     color: rgb(38, 20, 94);
     font: Inter;
     font-weight: 600;
@@ -2172,275 +2097,475 @@ footer{
     letter-spacing: 0px;
     right: 5%;
     position: absolute;
-  }
+}
 
 
-  .card3_logo1{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-  }
+.card1_logo1{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
 
-  .card3_logo2{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-  }
+.card1_logo2{
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 10%;
+}
 
+.card2 {
+  width: 40%;
+  height: 450px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+}
 
-  .card4{
-    width: 45%;
-    height: 450px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
-
-
-  .card_tittle4{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num4{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
+.card_text2{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
 
-  .card4_logo1{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-  }
+.card_tittle2{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
 
-  .card4_logo2{
-    width: 70%;
-    margin-top: 50px;
-    margin-left: 12.5%;
-  }
-
-
-  .card5 {
-    width: 45%;
-    height: 300px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
+.card_num2{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
 
 
-  .card_tittle5{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
+.card2_logo1{
+  width: 80%;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 10%;
+}
 
-  .card_num5{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
+.card2_logo2{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
 
 
-  .card5_logo1{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
+.card3 {
+  width: 40%;
+  height: 450px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
+}
+
+.card_text3{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
 
+.card_tittle3{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num3{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
 
 
-  .card6 {
-    width: 45%;
-    height: 300px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
+.card3_logo1{
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.card3_logo2{
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 10%;
+}
 
 
+.card4{
+  width: 40%;
+  height: 470px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
+}
 
-  .card_tittle6{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num6{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
-
-
-
-  .card6_logo1{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 10%;
-  }
+.card_text4{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
 
+.card_tittle4{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
 
-  .card7 {
-    width: 45%;
-    height: 260px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
-
-
-
-  .card_tittle7{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num7{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
+.card_num4{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
 
 
-  .card7_logo1{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-  }
+.card4_logo1{
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+.card4_logo2{
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 12.5%;
+}
 
 
+.card5 {
+  width: 40%;
+  height: 350px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -20px;
+}
 
-  .card8{
-    width: 45%;
-    height: 640px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
-  }
+.card_text5{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
+.card_tittle5{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
 
-  .card_tittle8{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
-
-  .card_num8{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
-
-
-  .card8_logo1{
-    width: 80%;
-    margin-top: 30px;
-    margin-left: 10%;
-  }
-
-  .card8_logo2{
-    width: 70%;
-    margin-top: 30px;
-    margin-left: 15%;
-  }
+.card_num5{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
 
 
-  .card9{
-    width: 45%;
-    height: 330px;
-    border-radius: 30px;
-    border: 2px solid #000000;
-    /* padding: 40px 90px 76px 40px; */
-    position: relative;
-    display: inline-block;
-    box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-    margin-top: -380px;
-  }
+.card5_logo1{
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 10%;
+}
 
 
 
-  .card_tittle9{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 700;
-    font-size: 30px;
-    letter-spacing: 0px;
-    position: absolute;
-  }
 
-  .card_num9{
-    color: rgb(38, 20, 94);
-    font: Inter;
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 0px;
-    right: 5%;
-    position: absolute;
-  }
+.card6 {
+  width: 40%;
+  height: 300px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
+}
+
+.card_text6{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
 
 
-  .card9_logo1{
-    width: 30%;
-    margin-top: 30px;
-    margin-left: 35%;
-  }
+.card_tittle6{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num6{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card6_logo1{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+
+
+.card7 {
+  width: 40%;
+  height: 330px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+}
+
+.card_text7{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.card_tittle7{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num7{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card7_logo1{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+
+
+.card8{
+  width: 40%;
+  height: 480px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -30px;
+}
+
+.card_text8{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.card_tittle8{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num8{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card8_logo1{
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.card8_logo2{
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+
+.card9{
+  width: 40%;
+  height: 430px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -120px;
+}
+
+.card_text9{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.card_tittle9{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num9{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card9_logo1{
+  width: 30%;
+  margin-top: 60px;
+  margin-left: 35%;
+}
+
+.card10{
+  width: 40%;
+  height: 310px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+}
+
+.card_text10{
+  width: 93%;
+  margin-left: 7%;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 32.5%;
+}
 
 
 
@@ -2485,7 +2610,7 @@ footer{
 @media (max-width:1250px){
   .content{
     width: 100%;
-    height: 2600px;
+    height: 2900px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -2652,31 +2777,21 @@ footer{
     margin: 0;
   }
 
-
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
   .tittle1{
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 72%; 
-    margin-top: 155px;
+    margin-top: 250px;
     margin-left: 14%;
-    height: 2450px;
+    height: 2750px;
     display: inline-block;
     position: relative;
   }
@@ -2812,7 +2927,7 @@ footer{
 
 .card3 {
   width: 45%;
-  height: 450px;
+  height: 480px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -2850,7 +2965,7 @@ footer{
 
 .card3_logo2{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -2903,13 +3018,14 @@ footer{
 
 .card5 {
   width: 45%;
-  height: 300px;
+  height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
 
 
@@ -2934,7 +3050,7 @@ footer{
 
 .card5_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 10%;
 }
 
@@ -2943,13 +3059,14 @@ footer{
 
 .card6 {
   width: 45%;
-  height: 300px;
+  height: 270px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -30px;
 }
 
 
@@ -2975,7 +3092,7 @@ footer{
 
 .card6_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -2983,7 +3100,7 @@ footer{
 
 .card7 {
   width: 45%;
-  height: 260px;
+  height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -3015,7 +3132,7 @@ footer{
 
 .card7_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
@@ -3023,13 +3140,14 @@ footer{
 
 .card8{
   width: 45%;
-  height: 640px;
+  height: 500px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -90px;
 }
 
 .card_tittle8{
@@ -3053,28 +3171,28 @@ footer{
 
 
 .card8_logo1{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
 }
 
 .card8_logo2{
-  width: 70%;
-  margin-top: 30px;
-  margin-left: 15%;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
 }
 
 
 .card9{
   width: 45%;
-  height: 330px;
+  height: 430px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -380px;
+  margin-top: -110px;
 }
 
 
@@ -3099,9 +3217,47 @@ footer{
 
 
 .card9_logo1{
-  width: 30%;
-  margin-top: 30px;
-  margin-left: 35%;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.card10 {
+  width: 45%;
+  height: 320px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 30%;
 }
 
 
@@ -3146,7 +3302,7 @@ footer{
 @media (max-width:1094px){
   .content{
     width: 100%;
-    height: 2600px;
+    height: 2900px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -3308,30 +3464,21 @@ footer{
   }
 
 
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
   .tittle1{
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 80%; 
-    margin-top: 155px;
+    margin-top: 250px;
     margin-left: 10%;
-    height: 2450px;
+    height: 2750px;
     display: inline-block;
     position: relative;
   }
@@ -3379,11 +3526,13 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
+    
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
     box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
+
 
 .card_tittle1{
     color: rgb(38, 20, 94);
@@ -3403,6 +3552,7 @@ footer{
     right: 5%;
     position: absolute;
 }
+
 
 .card1_logo1{
   width: 80%;
@@ -3464,7 +3614,7 @@ footer{
 
 .card3 {
   width: 45%;
-  height: 450px;
+  height: 480px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -3493,6 +3643,7 @@ footer{
   position: absolute;
 }
 
+
 .card3_logo1{
   width: 80%;
   margin-top: 30px;
@@ -3501,7 +3652,7 @@ footer{
 
 .card3_logo2{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -3516,6 +3667,8 @@ footer{
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
+
+
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -3536,6 +3689,7 @@ footer{
   position: absolute;
 }
 
+
 .card4_logo1{
   width: 80%;
   margin-top: 30px;
@@ -3551,14 +3705,16 @@ footer{
 
 .card5 {
   width: 45%;
-  height: 300px;
+  height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
+
 
 .card_tittle5{
   color: rgb(38, 20, 94);
@@ -3579,10 +3735,9 @@ footer{
   position: absolute;
 }
 
-
 .card5_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 10%;
 }
 
@@ -3591,14 +3746,16 @@ footer{
 
 .card6 {
   width: 45%;
-  height: 300px;
+  height: 270px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -30px;
 }
+
 
 .card_tittle6{
   color: rgb(38, 20, 94);
@@ -3619,9 +3776,10 @@ footer{
   position: absolute;
 }
 
+
 .card6_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -3629,7 +3787,7 @@ footer{
 
 .card7 {
   width: 45%;
-  height: 260px;
+  height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -3661,7 +3819,7 @@ footer{
 
 .card7_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
@@ -3669,13 +3827,14 @@ footer{
 
 .card8{
   width: 45%;
-  height: 640px;
+  height: 500px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -90px;
 }
 
 .card_tittle8{
@@ -3699,29 +3858,30 @@ footer{
 
 
 .card8_logo1{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
 }
 
 .card8_logo2{
-  width: 70%;
-  margin-top: 30px;
-  margin-left: 15%;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
 }
 
 
 .card9{
   width: 45%;
-  height: 330px;
+  height: 430px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -380px;
+  margin-top: -110px;
 }
+
 
 .card_tittle9{
   color: rgb(38, 20, 94);
@@ -3744,9 +3904,47 @@ footer{
 
 
 .card9_logo1{
-  width: 30%;
-  margin-top: 30px;
-  margin-left: 35%;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.card10 {
+  width: 45%;
+  height: 320px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 30%;
 }
 
 
@@ -3791,7 +3989,7 @@ footer{
 @media (max-width:950px){
   .content{
     width: 100%;
-    height: 2600px;
+    height: 2900px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -3953,31 +4151,21 @@ footer{
     margin: 0;
   }
 
-
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
   .tittle1{
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 86%; 
-    margin-top: 155px;
+    margin-top: 230px;
     margin-left: 7%;
-    height: 2450px;
+    height: 2750px;
     display: inline-block;
     position: relative;
   }
@@ -4025,6 +4213,7 @@ footer{
     height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
+    
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -4075,6 +4264,7 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
+
 .card_tittle2{
   color: rgb(38, 20, 94);
   font: Inter;
@@ -4111,7 +4301,7 @@ footer{
 
 .card3 {
   width: 45%;
-  height: 450px;
+  height: 480px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4149,7 +4339,7 @@ footer{
 
 .card3_logo2{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -4164,6 +4354,8 @@ footer{
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
+
+
 
 .card_tittle4{
   color: rgb(38, 20, 94);
@@ -4200,13 +4392,14 @@ footer{
 
 .card5 {
   width: 45%;
-  height: 300px;
+  height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
 
 
@@ -4229,10 +4422,9 @@ footer{
   position: absolute;
 }
 
-
 .card5_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 10%;
 }
 
@@ -4241,13 +4433,14 @@ footer{
 
 .card6 {
   width: 45%;
-  height: 300px;
+  height: 270px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -30px;
 }
 
 
@@ -4273,7 +4466,7 @@ footer{
 
 .card6_logo1{
   width: 80%;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
@@ -4281,7 +4474,7 @@ footer{
 
 .card7 {
   width: 45%;
-  height: 260px;
+  height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4289,6 +4482,7 @@ footer{
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
+
 
 .card_tittle7{
   color: rgb(38, 20, 94);
@@ -4312,7 +4506,7 @@ footer{
 
 .card7_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
@@ -4320,15 +4514,15 @@ footer{
 
 .card8{
   width: 45%;
-  height: 640px;
+  height: 500px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -90px;
 }
-
 
 .card_tittle8{
   color: rgb(38, 20, 94);
@@ -4351,28 +4545,28 @@ footer{
 
 
 .card8_logo1{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 10%;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
 }
 
 .card8_logo2{
-  width: 70%;
-  margin-top: 30px;
-  margin-left: 15%;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
 }
 
 
 .card9{
   width: 45%;
-  height: 330px;
+  height: 430px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -380px;
+  margin-top: -110px;
 }
 
 
@@ -4397,11 +4591,48 @@ footer{
 
 
 .card9_logo1{
-  width: 30%;
-  margin-top: 30px;
-  margin-left: 35%;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
 }
 
+.card10 {
+  width: 45%;
+  height: 320px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 30%;
+}
 
 
   
@@ -4444,7 +4675,7 @@ footer{
 @media (max-width:750px){
   .content{
     width: 100%;
-    height: 2530px;
+    height: 3000px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -4618,31 +4849,21 @@ footer{
     margin: 0;
   }
 
-
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
   .tittle1{
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 30px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 92%; 
-    margin-top: 155px;
+    margin-top: 230px;
     margin-left: 4%;
-    height: 2200px;
+    height: 2600px;
     display: inline-block;
     position: relative;
   }
@@ -4686,10 +4907,11 @@ footer{
 }
 
 .card1 {
-    width: 47%;
-    height: 380px;
+    width: 45%;
+    height: 450px;
     border-radius: 30px;
     border: 2px solid #000000;
+    
     /* padding: 40px 90px 76px 40px; */
     position: relative;
     display: inline-block;
@@ -4701,7 +4923,7 @@ footer{
     color: rgb(38, 20, 94);
     font: Inter;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 30px;
     letter-spacing: 0px;
     position: absolute;
 }
@@ -4710,7 +4932,7 @@ footer{
     color: rgb(38, 20, 94);
     font: Inter;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 30px;
     letter-spacing: 0px;
     right: 5%;
     position: absolute;
@@ -4719,19 +4941,19 @@ footer{
 
 .card1_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
 .card1_logo2{
   width: 80%;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
 .card2 {
-  width: 47%;
-  height: 380px;
+  width: 45%;
+  height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4740,11 +4962,12 @@ footer{
   box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
 }
 
+
 .card_tittle2{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4753,7 +4976,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
@@ -4762,21 +4985,21 @@ footer{
 
 .card2_logo1{
   width: 80%;
-  height: 130px;
-  margin-top: 30px;
+  height: 150px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
 .card2_logo2{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
 
 .card3 {
-  width: 47%;
-  height: 380px;
+  width: 45%;
+  height: 480px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4790,7 +5013,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4799,7 +5022,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
@@ -4808,20 +5031,20 @@ footer{
 
 .card3_logo1{
   width: 80%;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 10%;
 }
 
 .card3_logo2{
   width: 80%;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
 
 .card4{
-  width: 47%;
-  height: 380px;
+  width: 45%;
+  height: 450px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4831,11 +5054,12 @@ footer{
 }
 
 
+
 .card_tittle4{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4844,7 +5068,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
@@ -4853,26 +5077,27 @@ footer{
 
 .card4_logo1{
   width: 80%;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 10%;
 }
 
 .card4_logo2{
-  width: 60%;
-  margin-top: 30px;
-  margin-left: 20%;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 12.5%;
 }
 
 
 .card5 {
-  width: 47%;
-  height: 260px;
+  width: 45%;
+  height: 330px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
 
 
@@ -4880,7 +5105,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4889,16 +5114,15 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
 }
 
-
 .card5_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: 10%;
 }
 
@@ -4906,14 +5130,15 @@ footer{
 
 
 .card6 {
-  width: 47%;
-  height: 260px;
+  width: 45%;
+  height: 270px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -30px;
 }
 
 
@@ -4921,7 +5146,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4930,7 +5155,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
@@ -4939,15 +5164,15 @@ footer{
 
 .card6_logo1{
   width: 80%;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 10%;
 }
 
 
 
 .card7 {
-  width: 47%;
-  height: 240px;
+  width: 45%;
+  height: 300px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4961,7 +5186,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
@@ -4970,7 +5195,7 @@ footer{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
@@ -4979,15 +5204,99 @@ footer{
 
 .card7_logo1{
   width: 80%;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: 10%;
 }
 
 
 
 .card8{
-  width: 47%;
-  height: 590px;
+  width: 45%;
+  height: 500px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -90px;
+}
+
+.card_tittle8{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num8{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card8_logo1{
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.card8_logo2{
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+
+.card9{
+  width: 45%;
+  height: 430px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: -110px;
+}
+
+
+.card_tittle9{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num9{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card9_logo1{
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.card10 {
+  width: 45%;
+  height: 320px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -4997,78 +5306,31 @@ footer{
 }
 
 
-.card_tittle8{
+.card_tittle10{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   position: absolute;
 }
 
-.card_num8{
+.card_num10{
   color: rgb(38, 20, 94);
   font: Inter;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 30px;
   letter-spacing: 0px;
   right: 5%;
   position: absolute;
 }
 
 
-.card8_logo1{
-  width: 80%;
-  margin-top: 40px;
-  margin-left: 10%;
-}
-
-.card8_logo2{
-  width: 80%;
-  margin-top: 40px;
-  margin-left: 10%;
-}
-
-
-.card9{
-  width: 47%;
-  height: 300px;
-  border-radius: 30px;
-  border: 2px solid #000000;
-  /* padding: 40px 90px 76px 40px; */
-  position: relative;
-  display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
-  margin-top: -350px;
-}
-
-
-.card_tittle9{
-  color: rgb(38, 20, 94);
-  font: Inter;
-  font-weight: 700;
-  font-size: 27px;
-  letter-spacing: 0px;
-  position: absolute;
-}
-
-.card_num9{
-  color: rgb(38, 20, 94);
-  font: Inter;
-  font-weight: 600;
-  font-size: 27px;
-  letter-spacing: 0px;
-  right: 5%;
-  position: absolute;
-}
-
-
-.card9_logo1{
-  width: 30%;
+.card10_logo1{
+  width: 40%;
   margin-top: 20px;
-  margin-left: 35%;
+  margin-left: 30%;
 }
-
 
 
   
@@ -5111,7 +5373,7 @@ footer{
 @media (max-width:600px){
   .content{
     width: 100%;
-    height: 4600px;
+    height: 5100px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -5285,31 +5547,21 @@ footer{
     margin: 0;
   }
 
-
-  .tittle{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
-
   .tittle1{
-    margin-top: 10px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 92%; 
-    margin-top: 155px;
+    margin-top: 200px;
     margin-left: 4%;
-    height: 4300px;
+    height: 4800px;
     display: inline-block;
     position: relative;
   }
@@ -5594,7 +5846,8 @@ footer{
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
 
 
@@ -5679,7 +5932,8 @@ footer{
   /* padding: 40px 90px 76px 40px; */
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5)
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
 }
 
 
@@ -5721,7 +5975,7 @@ footer{
 .card9{
   width: 70%;
   margin-left: 15%;
-  height: 300px;
+  height: 350px;
   border-radius: 30px;
   border: 2px solid #000000;
   /* padding: 40px 90px 76px 40px; */
@@ -5755,8 +6009,49 @@ footer{
 
 .card9_logo1{
   width: 30%;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 35%;
+}
+
+.card10{
+  width: 70%;
+  margin-left: 15%;
+  height: 330px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
+}
+
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+.card10_logo1{
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 30%;
 }
 
 
@@ -5801,7 +6096,7 @@ footer{
 @media (max-width:450px){
   .content{
     width: 100%;
-    height: 4500px;
+    height: 4800px;
     margin: 0;
     padding-top: 0px;
     box-sizing: border-box;
@@ -5938,30 +6233,23 @@ footer{
  
 
 
-  .tittle{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(38, 20, 94);
-    margin-top: 75px;
-    position: absolute;
-  }
+
 
   .tittle1{
-    margin-top: 5px;
     text-align: center;
     color: white;
     font: Inter;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 0px;
   }
 
   .container{
     /* 1305 */
     width: 92%; 
-    margin-top: 125px;
+    margin-top: 170px;
     margin-left: 4%;
-    height: 4300px;
+    height: 4700px;
     display: inline-block;
     position: relative;
   }
@@ -6396,6 +6684,48 @@ footer{
   margin-top: 20px;
   margin-left: 35%;
 }
+
+.card10{
+  width: 86%;
+  margin-left: 7%;
+  height: 330px;
+  border-radius: 30px;
+  border: 2px solid #000000;
+  /* padding: 40px 90px 76px 40px; */
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px rgba(30, 30, 30, 0.5);
+  margin-top: 0px;
+}
+
+
+.card_tittle10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: 0px;
+  position: absolute;
+}
+
+.card_num10{
+  color: rgb(38, 20, 94);
+  font: Inter;
+  font-weight: 600;
+  font-size: 27px;
+  letter-spacing: 0px;
+  right: 5%;
+  position: absolute;
+}
+
+
+
+.card10_logo1{
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 30%;
+}
+
 
 
 
