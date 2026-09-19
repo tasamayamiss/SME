@@ -10,6 +10,7 @@ charset="UTF8"/>
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="expires" content="0">
     <title>SME инновации</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
@@ -59,7 +60,7 @@ charset="UTF8"/>
             <hr class="hr3" color="black">
             
             <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="5bb0f885-f598-4c05-9398-728c5aced05e">
+                <input type="hidden" name="access_key" value="96134fad-2649-4a14-be30-77ad1d232162">
                 <div class="form_content">
                 <div class="div1"><span class="sp1">Введите ФИО:</span>
                 <input type="text" name="fio" id="" class="box" required
@@ -77,6 +78,14 @@ charset="UTF8"/>
                 <input class="message" type="text" name="message" id="" class="box" required
                 autocomplete="off"></div>
                 </div>
+                <div class="div6">
+                    
+                    <input type="checkbox" class="checkbox" id="checkbox" name="agreement" required
+                autocomplete="off">
+                    <label for="checkbox" class="label_chk"><a class="agr" href="agreement.pdf"> Согласен с обработкой персональных данных</a></label>
+                </div>
+                
+
 
                 <input type="submit" value="Отправить" class="btn" name="send">
             </form>

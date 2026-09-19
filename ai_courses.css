@@ -14,8 +14,10 @@
 }
 
 .preloader_img {
+  margin-top: 50px;
   width: 80%;
   animation: small-big-small 2s ease-in-out;
+  position: fixed;
 }
 
 @keyframes small-big-small {
@@ -33,13 +35,11 @@ html {
 *, *::after, *::before { box-sizing: inherit; }
 
 body {
-  display: block;
+  display: flex;
   font-family: "Roboto", sans-serif;
-  min-height: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #ffffff;
-  overflow-x: hidden;
 }
 
 .content {
@@ -49,7 +49,7 @@ body {
   display: block;
 }
 
-/* ============ КОМПАКТНАЯ ШАПКА ============ */
+/* ---------- Компактная шапка ---------- */
 #nav {
   position: fixed;
   top: 0;
@@ -57,7 +57,7 @@ body {
   z-index: 100;
   width: 100%;
   height: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   padding: 0;
   display: flex;
   align-items: center;
@@ -73,6 +73,7 @@ body {
   left: 5%;
 }
 
+/* Логотип в шапке */
 .wrap > .logo_img {
   position: absolute;
   left: 0;
@@ -85,6 +86,7 @@ body {
 
 .closeIcon { display: none; }
 
+/* ENG в шапке */
 .wrap > #ru_eng {
   position: absolute;
   right: 70px;
@@ -108,7 +110,7 @@ body {
   color: rgb(38, 20, 94);
 }
 
-/* ============ БУРГЕР ============ */
+/* Бургер */
 .burger1 {
   position: absolute;
   right: 0;
@@ -166,7 +168,7 @@ body {
   transition: bottom .3s, transform .3s .15s;
 }
 
-/* ============ ВЫПАДАЮЩЕЕ МЕНЮ ============ */
+/* ---------- Выпадающее меню ---------- */
 .menu {
   width: 100%;
   position: fixed;
@@ -261,204 +263,161 @@ a:active { border-bottom: 1px solid; }
 /* ---------- Заголовок страницы ---------- */
 .tittle {
   width: 100%;
-  padding: 2px;
+  padding: 0;
   background-color: rgb(38, 20, 94);
-  margin-top: 75px;
+  margin-top: 60px;
 }
 
 .tittle1 {
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
   color: white;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 22px;
   letter-spacing: 0px;
-  margin: 10px 0;
+  padding: 9px 0;
 }
 
-/* ---------- Основная карточка ---------- */
-.card {
+/* ---------- Контейнер страницы ---------- */
+/* Ширина как у страницы radar: max-width 720px + внутренние отступы 20px */
+.container {
   width: 100%;
-  max-width: 480px;
+  max-width: 720px;
   margin: 45px auto 0;
-  position: relative;
-  border: 2.5px solid rgb(38, 20, 94);
-  border-radius: 16px;
-  padding: 0 0 18px 0;
-  background: #FAFAFA;
-  box-shadow: 3px 3px 7px 0px rgba(30, 30, 30, 0.4);
-  overflow: hidden;
+  padding: 0 20px 40px;
 }
 
-/* ---------- Кнопки-табы ---------- */
-.buttons {
+/* Рамка "Превращаем вебинары..." */
+.offer {
+  margin: 100px auto 100px;
+  width: 80%;
+  border: 2px solid rgb(38, 20, 94);
+  border-radius: 30px;
+  padding: 9px;
+}
+
+.p_offer {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: rgb(38, 20, 94);
+  text-align: center;
+  margin: 5px 0;
+}
+
+.block {
   width: 100%;
-  height: 40px;
-  display: flex;
-  align-items: stretch;
+  margin-top: 45px;
 }
 
-.btn1, .btn2, .btn3 {
-  height: 40px;
-  font-family: "Roboto", sans-serif;
+/* Заголовок блока — начинается там же, где линия hr_block */
+.block_tittle {
+  margin-left: 0;
   font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: rgb(38, 20, 94);
+}
+
+.hr_block {
+  width: 100%;
+  height: 3px;
+  margin-top: 7px;
+  border: none;
+  background: #000;
+}
+
+.text {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+  font-weight: 400;
   font-size: 13px;
   letter-spacing: 0px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  line-height: 1.5;
+  text-align: justify;
 }
 
-.btn1 {
-  width: 33.4%;
-  background-color: #ffffff;
-  color: rgb(38, 20, 94);
-  border-radius: 13px 0 0 0;
-}
-
-.btn2 {
-  width: 33.3%;
-  background-color: rgb(38, 20, 94);
-  color: #ffffff;
-}
-
-.btn3 {
-  width: 33.3%;
-  background-color: rgb(38, 20, 94);
-  color: #ffffff;
-  border-radius: 0 13px 0 0;
-}
-
-/* ---------- Содержимое табов ---------- */
-.contents {
-  width: 100%;
-  padding: 0 18px;
-  box-sizing: border-box;
-}
-
-.img1 {
-  display: block;
-  width: 55%;
-  margin: 18px auto 0;
-  border-radius: 10px;
-}
-
-.img2 {
-  display: block;
-  width: 55%;
-  margin: 18px auto 0;
-  border-radius: 10px;
-}
-
-.block1 {
-  width: 100%;
-  margin-top: 15px;
-  border: 1.5px solid #000;
-  border-radius: 12px;
-  padding: 8px 14px;
-  box-sizing: border-box;
-}
-
-.p_block1 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.4;
-  margin: 0;
-}
-
-.block2 {
-  width: 100%;
-  margin-top: 10px;
-  border: 1.5px solid #000;
-  border-radius: 12px;
-  padding: 8px 14px;
-  box-sizing: border-box;
-}
-
-.p_block2 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.4;
-  margin: 0;
-}
-
-.block3 {
-  width: 100%;
-  margin-top: 15px;
-  padding-left: 18px;
-  box-sizing: border-box;
-}
-
-.block3 li {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.4;
-  margin-top: 7px;
-}
-
-/* Третий таб */
-.p2 {
-  color: rgb(38, 20, 94);
-  font-weight: 600;
-  font-size: 16px;
+.scenario_tittle {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
   letter-spacing: 0px;
-  margin: 18px 0 0 0;
-  text-align: center;
+  color: rgb(38, 20, 94);
 }
 
-.block4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
-  width: 100%;
-  margin-top: 15px;
+.list {
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 13px;
 }
 
-.img3, .img4, .img5, .img6 {
-  width: 100%;
-  border-radius: 7px;
+.list_num {
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 13px;
 }
 
-.block5 {
-  width: 100%;
-  margin: 15px 0 0 0;
-  padding-left: 18px;
-  box-sizing: border-box;
+.list li, .list_num li {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  margin-top: 8px;
 }
 
-.block5 li {
-  font-weight: 500;
-  font-size: 12px;
+/* ---------- Таблица форматов ---------- */
+.formats {
+  width: 90%;
+  margin: 35px auto 0;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.formats th {
+  background-color: rgb(38, 20, 94);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 9px;
+  text-align: left;
+  border: 1px solid rgb(38, 20, 94);
+}
+
+.formats td {
+  border: 1px solid rgb(38, 20, 94);
+  padding: 10px 9px;
+  vertical-align: top;
+  font-weight: 400;
+  letter-spacing: 0px;
   line-height: 1.4;
-  margin-top: 7px;
 }
 
-/* ---------- Видео — увеличен отступ сверху ---------- */
-.video {
-  display: block;
-  width: 55%;
-  max-width: 500px;
-  margin: 120px auto 0;
-  border-radius: 14px;
-  background: #000;
+.formats tr:nth-child(even) td {
+  background-color: #f5f3fa;
 }
 
 /* ---------- Футер ---------- */
 footer {
   width: 100%;
   height: 100px;
-  margin-top: 80px;
+  margin-top: 70px;
   background-color: rgb(38, 20, 94);
   display: inline-block;
   position: relative;
 }
 
 .ur_adress {
-  width: 40%;
-  left: 15%;
+  width: 30%;
+  left: 20%;
   top: 30px;
   color: #ffffff;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
+  letter-spacing: 0px;
   position: absolute;
 }
 
@@ -468,38 +427,43 @@ footer {
   top: 30px;
   color: #ffffff;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
+  letter-spacing: 0px;
   position: absolute;
 }
 
 /* ---------- Адаптив ---------- */
 
-@media (max-width: 1100px) {
-  .card { max-width: 460px; }
-  .tittle1 { font-size: 24px; }
-  .btn1, .btn2, .btn3 { font-size: 12px; }
-  .video { margin-top: 100px; }
-
-  .ur_adress { left: 10%; font-size: 14px; }
-  .email_adress { left: 70%; font-size: 14px; }
+@media (max-width: 1500px) {
+  .tittle1 { font-size: 20px; padding: 8px 0; }
+  .block_tittle { font-size: 18px; }
+  .offer { margin: 85px auto; }
 }
 
-@media (max-width: 800px) {
-  .card { max-width: 420px; margin-top: 35px; }
-  .tittle1 { font-size: 20px; }
+@media (max-width: 1200px) {
+  .menu_links { gap: 8px 28px; }
+  .p_offer { font-size: 13px; }
+  .text { font-size: 12px; }
+  .scenario_tittle { font-size: 13px; }
+  .list li, .list_num li { font-size: 12px; }
+  .offer { margin: 75px auto; }
+}
 
-  .btn1, .btn2, .btn3 { font-size: 11px; height: 38px; }
-  .buttons { height: 38px; }
-
-  .contents { padding: 0 16px; }
-  .img1, .img2 { width: 65%; }
-
-  .block4 { grid-template-columns: repeat(2, 1fr); }
-
-  .video { width: 70%; margin-top: 80px; }
-
-  .ur_adress { font-size: 13px; left: 8%; width: 50%; }
-  .email_adress { font-size: 13px; left: 60%; width: 35%; }
+@media (max-width: 950px) {
+  .wrap, .hr2, .menu_links { width: 92%; }
+  .menuItem1, .menuItem2, .menuItem3, .menuItem4, .menuItem5 { font-size: 14px; }
+  .menu_links { gap: 8px 20px; }
+  .tittle1 { font-size: 18px; padding: 8px 0; }
+  .container { max-width: 660px; }
+  .block_tittle { font-size: 17px; }
+  .text { font-size: 12px; margin-left: 3%; margin-right: 3%; }
+  .scenario_tittle { font-size: 12px; margin-left: 3%; margin-right: 3%; }
+  .list, .list_num { margin-left: 5%; margin-right: 3%; }
+  .list li, .list_num li { font-size: 12px; }
+  .formats { font-size: 12px; }
+  .formats th { font-size: 12px; padding: 9px 7px; }
+  .formats td { padding: 9px 7px; }
+  .offer { margin: 65px auto; }
 }
 
 @media (max-width: 750px) {
@@ -507,11 +471,13 @@ footer {
   .ENG { font-size: 14px; }
 
   .menu { border-radius: 0 0 20px 20px; }
+
   .menu_links {
     flex-direction: column;
     gap: 0;
     padding: 14px 0 22px 0;
   }
+
   .menuItem1, .menuItem2, .menuItem3, .menuItem4, .menuItem5 {
     display: block;
     width: 100%;
@@ -520,49 +486,38 @@ footer {
     font-size: 16px;
     white-space: normal;
   }
+
   .menuItem1::after, .menuItem2::after, .menuItem3::after,
   .menuItem4::after, .menuItem5::after { display: none; }
-}
 
-@media (max-width: 620px) {
-  .card { margin-top: 30px; }
-  .tittle1 { font-size: 17px; }
-
-  .btn1, .btn2, .btn3 { font-size: 11px; height: 36px; }
-  .buttons { height: 36px; }
-
-  .contents { padding: 0 14px; }
-  .img1, .img2 { width: 80%; margin-top: 16px; }
-
-  .block1, .block2 { padding: 7px 12px; }
-  .p_block1, .p_block2 { font-size: 11px; }
-  .block3 li, .block5 li { font-size: 11px; }
-
-  .p2 { font-size: 14px; margin-top: 16px; }
-
-  .video { width: 85%; margin-top: 60px; }
-
+  .tittle1 { font-size: 16px; padding: 7px 0; }
+  .container { max-width: 580px; }
+  .p_offer { font-size: 12px; }
+  .block_tittle { font-size: 16px; }
+  .text { font-size: 11px; }
+  .scenario_tittle { font-size: 12px; }
+  .list li, .list_num li { font-size: 11px; }
+  .formats { font-size: 10px; }
+  .formats th { font-size: 11px; padding: 8px 5px; }
+  .formats td { padding: 8px 5px; }
   .ur_adress { font-size: 12px; left: 8%; }
   .email_adress { font-size: 12px; left: 60%; }
-  footer { margin-top: 60px; }
+  .offer { margin: 50px auto; }
 }
 
-@media (max-width: 450px) {
-  .card { margin-top: 22px; border-width: 2px; }
-  .tittle1 { font-size: 15px; }
-
-  .btn1, .btn2, .btn3 { font-size: 10px; height: 34px; }
-  .buttons { height: 34px; }
-
-  .contents { padding: 0 12px; }
-  .img1, .img2 { width: 90%; }
-
-  .p_block1, .p_block2 { font-size: 10px; }
-  .block3 li, .block5 li { font-size: 10px; }
-  .p2 { font-size: 13px; }
-
-  .video { width: 100%; margin-top: 45px; }
-
-  .ur_adress, .email_adress { font-size: 10px; }
-  footer { height: 80px; margin-top: 50px; }
+@media (max-width: 500px) {
+  .tittle1 { font-size: 14px; padding: 6px 0; }
+  .container { padding: 0 16px 30px; }
+  .p_offer { font-size: 11px; }
+  .block_tittle { font-size: 14px; }
+  .text { font-size: 10px; }
+  .scenario_tittle { font-size: 11px; }
+  .list li, .list_num li { font-size: 10px; }
+  .formats { font-size: 10px; }
+  .formats th { font-size: 10px; padding: 6px 4px; }
+  .formats td { padding: 6px 4px; }
+  .ur_adress { font-size: 10px; }
+  .email_adress { font-size: 10px; }
+  footer { height: 80px; }
+  .offer { margin: 40px auto; }
 }
